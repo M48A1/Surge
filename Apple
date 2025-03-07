@@ -10,6 +10,7 @@ DOMAIN-SUFFIX,icloud.com
 DOMIAN-SUFFIX,icloud.com.cn
 DOMAIN-SUFFIX,apzones.com
 DOMAIN-SUFFIX,mzstatic.com
+DOMAIN,icloud-apple.cn
 
 #KEYWORD
 DOMAIN-KEYWORD,icloud
@@ -88,10 +89,8 @@ DOMAIN-SUFFIX,appleicloud.cn
 
 
 
-#Others
 
-DOMAIN,icloud-apple.cn
-DOMAIN,cdn.icloud.com.akadns.net
+
 
 
 
