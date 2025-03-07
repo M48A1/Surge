@@ -38,6 +38,9 @@ DOMAIN,streamingaudio.itunes.apple.com
 DOMAIN,aod.itunes.apple.com
 DOMAIN,apple.comscoreresearch.com
 DOMAIN,blobstore.apple.com
+DOMAIN,radio-activity.itunes.apple.com
+DOMAIN,uts-api.itunes.apple.com
+DOMAIN-KEYWORD,itunes
 
 #Music
 
@@ -111,12 +114,16 @@ DOMAIN,ess.apple.com
 DOMAIN,29-courier.push.apple.com
 DOMAIN,configuration.ls.apple.com
 DOMAIN,api.smoot.apple.com
-DOMAIN,radio-activity.itunes.apple.com
-DOMAIN,notes-analytics-events.apple.com
-DOMAIN,uts-api.itunes.apple.com
 DOMAIN,gdmf.apple.com
 DOMAIN,amp-api.videos.apple.com
 DOMAIN-SUFFIX,apzones.com
+DOMAIN,time.apple.com
+DOMAIN,notes-analytics-events.apple.com
+DOMAIN,api.smoot.apple.cn
+DOMAIN,gsas.apple.com
+DOMAIN,gspe79-ssl.ls.apple.com
+DOMAIN-KEYWORD,ls.apple
+
 
 
 
