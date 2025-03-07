@@ -1,14 +1,20 @@
 
 #Apple
 
-#Me
 
 DOMAIN-SUFFIX,me.com
+DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,apple.cn
+DOMAIN-SUFFIX,apple.com.cn
+DOMAIN-SUFFIX,icloud.com
+DOMIAN-SUFFIX,icloud.com.cn
+DOMAIN-SUFFIX,apzones.com
 
-#Mail
+#KEYWORD
+DOMAIN-KEYWORD,icloud
+DOMAIN-KEYWORD,itunes
+DOMAIN-KEYWORD,ls.apple
 
-DOMAIN,mail.icloud.com.cn
-DOMAIN,mail.me.com
 
 #iBook
 
@@ -19,28 +25,7 @@ DOMAIN-SUFFIX,ibook.net
 DOMAIN-SUFFIX,ibookpartner.com
 DOMAIN-SUFFIX,ibooksauthor.com
 
-#iTunes
 
-DOMAIN,audio.itunes.apple.com
-DOMAIN,uts-api.itunes.apple.com
-DOMAIN,fpinit.itunes.apple.com
-DOMAIN,cma2.itunes.apple.com
-DOMAIN,p29-buy.itunes.apple.com
-DOMAIN,audio-ssl.itunes.apple.com
-DOMAIN,blobstore.apple.com
-DOMAIN,hls-amt.itunes.apple.com
-DOMAIN,hls.itunes.apple.com
-DOMAIN,imoviegallery.com
-DOMAIN,imoviestage.com
-DOMAIN,mvod.itunes.apple.com
-DOMAIN,play-edge.itunes.apple.com
-DOMAIN,streamingaudio.itunes.apple.com
-DOMAIN,aod.itunes.apple.com
-DOMAIN,apple.comscoreresearch.com
-DOMAIN,blobstore.apple.com
-DOMAIN,radio-activity.itunes.apple.com
-DOMAIN,uts-api.itunes.apple.com
-DOMAIN-KEYWORD,itunes
 
 #Music
 
@@ -50,22 +35,25 @@ DOMAIN-SUFFIX,applemusic.wang
 DOMAIN-SUFFIX,applemusicconnect.com
 DOMAIN-SUFFIX,applemusicfestival.com
 DOMAIN-SUFFIX,applemusic.com
-DOMAIN,music.apple.com
 DOMAIN-SUFFIX,musickit.net
+DOMAIN-SUFFIX,amemv.com
+
+
+
+
 
 #TV
 
 DOMAIN-SUFFIX,appletv.wang
-DOMAIN-SUFFIX,tv.apple.com
 DOMAIN-SUFFIX,appletv4.cn
 DOMAIN,appletv4.com.cn
 DOMAIN,appletvapp.apple
-DOMAIN,tv.apple.com
+
 
 
 #Gallery
 
-DOMAIN-SUFFIX,apple-livephotoskit.com
+DOMAIN,apple-livephotoskit.com
 DOMAIN-SUFFIX,iphoto.wang
 
 #iCloud
@@ -73,15 +61,12 @@ DOMAIN-SUFFIX,iphoto.wang
 DOMAIN,icloud-content.com
 DOMAIN,icloud-isupport.com
 DOMAIN,icloud-sandbox.com
-DOMAIN,icloud.apple.com
-DOMAIN,icloud.com.cn
 DOMAIN,icloudads.net
 DOMAIN,icloudapple.cn
 DOMAIN,ios-icloud.com
 DOMAIN,apple-cloudkit.com
 DOMAIN,apple-icloud.cn
 DOMAIN,applemx-icloud.com
-DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,icloudbox.net
 DOMAIN-SUFFIX,icloudbrowser.net
 DOMAIN-SUFFIX,icloude.com
@@ -99,31 +84,13 @@ DOMAIN-SUFFIX,myicloud.net
 DOMAIN-SUFFIX,wwwicloud.com
 DOMAIN-SUFFIX,icloudads.net
 DOMAIN-SUFFIX,appleicloud.cn
-DOMAIN-KEYWORD,icloud
 
 
 
 #Others
 
-DOMAIN,fides-pol.apple.com
-DOMAIN,iwork.apple.com
-DOMAIN,cdn-apple.com
-DOMAIN,gc.apple.com
 DOMAIN,icloud-apple.cn
 DOMAIN,cdn.icloud.com.akadns.net
-DOMAIN,ess.apple.com
-DOMAIN,29-courier.push.apple.com
-DOMAIN,configuration.ls.apple.com
-DOMAIN,api.smoot.apple.com
-DOMAIN,gdmf.apple.com
-DOMAIN,amp-api.videos.apple.com
-DOMAIN-SUFFIX,apzones.com
-DOMAIN,time.apple.com
-DOMAIN,notes-analytics-events.apple.com
-DOMAIN,api.smoot.apple.cn
-DOMAIN,gsas.apple.com
-DOMAIN,gspe79-ssl.ls.apple.com
-DOMAIN-KEYWORD,ls.apple
 
 
 
