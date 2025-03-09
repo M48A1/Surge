@@ -12,15 +12,18 @@ DOMAIN-SUFFIX,apzones.com
 DOMAIN-SUFFIX,mzstatic.com
 DOMAIN-SUFFIX,safebrowsing.apple
 DOMAIN,icloud-apple.cn
+DOMAIN,sequoia.cdn-apple.com
+
+
 
 #KEYWORD
 DOMAIN-KEYWORD,icloud
 DOMAIN-KEYWORD,itunes
 DOMAIN-KEYWORD,ls.apple
+DOMAIN-KEYWORD,cnd-apple
 
 
 #iBook
-
 DOMAIN,i-book.com
 DOMAIN,i-book.net
 DOMAIN-SUFFIX,ibook.com
