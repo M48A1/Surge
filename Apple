@@ -10,6 +10,7 @@ DOMAIN-SUFFIX,icloud.com
 DOMIAN-SUFFIX,icloud.com.cn
 DOMAIN-SUFFIX,apzones.com
 DOMAIN-SUFFIX,mzstatic.com
+DOMAIN-SUFFIX,safebrowsing.apple
 DOMAIN,icloud-apple.cn
 
 #KEYWORD
