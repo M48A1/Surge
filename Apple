@@ -12,6 +12,7 @@ DOMAIN-SUFFIX,apzones.com
 DOMAIN-SUFFIX,mzstatic.com
 DOMAIN,icloud-apple.cn
 DOMAIN,sequoia.cdn-apple.com
+DOMAIN,apple-relay.fastly-edge.com
 
 
 
