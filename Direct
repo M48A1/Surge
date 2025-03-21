@@ -21,6 +21,8 @@ IP-ASN,4134,DIRECT,no-resolve // China Telecom
 
 
 #WeChat
+DOMAIN-SUFFIX,qq.com
+DOMAIN,wxapp.tc.qq.com
 DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net
 DOMAIN,dldir1.qq.com
 DOMAIN,slife.xy-asia.com
