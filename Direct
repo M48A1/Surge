@@ -18,7 +18,7 @@ PROCESS-NAME,WebTorrent Helper
 
 # ISP 
 IP-ASN,4134,DIRECT,no-resolve // China Telecom
-
+IP-ASN,AS56040,DIRECT,no-resolve //China mobile
 
 #WeChat
 
