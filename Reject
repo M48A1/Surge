@@ -1,4 +1,10 @@
 #Reject
+
+# Blocking UDP Packets by Youtube and ins
+AND,((DOMAIN-SUFFIX,googlevideo.com), (DOMAIN-SUFFIX,gvt1.com), (DOMAIN-SUFFIX,cdninstagram.com), (PROTOCOL,UDP)),REJECT
+
+# advertisement
+
 DOMAIN,4lke.online
 DOMAIN,643108e7617ef.cdn.sohucs.com
 DOMAIN,a-remad.qm989.com
