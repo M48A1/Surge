@@ -25,7 +25,7 @@ IP-ASN,9808
 
 
 #WeChat
-
+DOMAIN-SUFFIX,qq.com
 DOMAIN,wxapp.tc.qq.com
 DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net
 DOMAIN,dldir1.qq.com
