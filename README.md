@@ -4,6 +4,8 @@
 * 努力避开final的结果，条条请求有规则；
   
 
+## 插件
+* https://surge.qingr.moe
 
 ## 其他配置信息
 * GEOIP : https://github.com/Hackl0us/GeoIP2-CN/raw/release/Country.mmdb
