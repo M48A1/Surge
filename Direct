@@ -17,8 +17,12 @@ PROCESS-NAME,WebTorrent
 PROCESS-NAME,WebTorrent Helper
 
 # ISP 
-IP-ASN,4134,DIRECT,no-resolve // China Telecom
-IP-ASN,AS56040,DIRECT,no-resolve //China mobile
+#China Telecom
+IP-ASN,4134,no-resolve 
+#China mobile
+IP-ASN,56040 
+IP-ASN,9808
+
 
 #WeChat
 
@@ -54,6 +58,6 @@ DOMAIN-SUFFIX,yun-hl.3g.qq.com
 IP-CIDR,111.30.160.0/20,no-resolve
 IP-CIDR,112.53.11.0/24,no-resolve
 IP-CIDR,112.53.20.0/24,no-resolve
-IP-ASN,132203,no-resolve
+IP-ASN,132203
 USER-AGENT,MicroMessenger*
 USER-AGENT,WeChat*
