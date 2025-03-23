@@ -17,7 +17,7 @@ DOMAIN,copilot.microsoft.com
 DOMAIN,sydney.bing.com
 DOMAIN,api.githubcopilot.com
 DOMAIN,production-openaicom-storage.azureedge.net
-DOMIAN-SUFFIX,bing.com
+DOMAIN-SUFFIX,bing.com
 
 #Google
 DOMAIN,ai.google.dev
