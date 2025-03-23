@@ -15,12 +15,3 @@ PROCESS-NAME,Transmission
 PROCESS-NAME,uTorrent
 PROCESS-NAME,WebTorrent
 PROCESS-NAME,WebTorrent Helper
-
-# ISP 
-#China Telecom
-IP-ASN,4134,no-resolve 
-#China mobile
-IP-ASN,56040 
-IP-ASN,9808
-
-
