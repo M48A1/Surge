@@ -1,6 +1,6 @@
 ## 初衷
 * 抄袭可莉大佬的规则，添加一些自用的规则；
-* 抄袭blackmatrix7的规则，精简之后成为自己的规则；
+* 抄袭[blackmatrix7](https://github.com/blackmatrix7/ios_rule_script)  的规则，精简之后成为自己的规则；
 * 努力避开final的结果，条条请求有规则；
   
 
