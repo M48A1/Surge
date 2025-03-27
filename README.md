@@ -6,6 +6,7 @@
 
 ## 插件
 * https://surge.qingr.moe
+* https://github.com/Rabbit-Spec/Surge/tree/Master/Module
 
 ## 其他配置信息
 * GEOIP : https://github.com/Hackl0us/GeoIP2-CN/raw/release/Country.mmdb
