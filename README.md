@@ -17,3 +17,4 @@
 ### 配置参考：
 * https://github.com/blankmagic
 * https://raw.githubusercontent.com/zxfccmm4/Surge/main/Steve_NewSurge.conf
+* https://github.com/Rabbit-Spec/Surge
