@@ -60,7 +60,7 @@ DOMAIN-SUFFIX,meta.ai
 
 DOMAIN,apple-relay.apple.com
 DOMAIN,apple-relay.cloudflare.com
-DOMAIN,apple-relay.apple.com
+DOMAIN-KEYWORD,apple-relay
 
 #Genius AI
 DOMAIN-SUFFIX,revenuecat.com
