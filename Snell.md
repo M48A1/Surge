@@ -24,7 +24,7 @@
 * ./snell-server
 
 # run 
-*./snell-server &
+* ./snell-server &
 
 # configuration
 * cat ~/snell-server.conf
