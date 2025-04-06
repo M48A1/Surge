@@ -1,6 +1,6 @@
 #!name=Google
 
-#!category=Enchancements
+#!category=Enhancements
 
 [URL Rewrite]
 ^https?:\/\/(www.)?(g|google)\.cn https://www.google.com 307
