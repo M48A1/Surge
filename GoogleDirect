@@ -1,3 +1,6 @@
+
+#!name=GoogleDirect
+
 [URL Rewrite]
 
 ^https?://(www.)?google.com.hk https://www.google.com 307
