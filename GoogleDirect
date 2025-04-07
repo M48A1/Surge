@@ -1,0 +1,6 @@
+[URL Rewrite]
+
+^https?://(www.)?google.com.hk https://www.google.com 302
+
+[MITM]
+hostname = www.google.com.hk
