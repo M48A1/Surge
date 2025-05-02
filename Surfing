@@ -1,12 +1,17 @@
 #Surfing
 
 DOMAIN-SUFFIX,vercel.app
+DOMAIN-SUFFIX,vercel.com
+
 DOMAIN-SUFFIX,nssurge.com
+
 DOMAIN-SUFFIX,v2ex.com
 DOMAIN-KEYWORD,v2ex
 DOMAIN-SUFFIX,nodeseek.com
 DOMAIN-SUFFIX,greasyfork.org
+
+
+DOMAIN-KEYWORD,greasyfork
+
 DOMAIN-SUFFIX,annas-archive.org
 DOMAIN-SUFFIX,gitlab.com
-DOMAIN-KEYWORD,greasyfork
-DOMAIN-SUFFIX,vercel.com
