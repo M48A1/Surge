@@ -1,0 +1,17 @@
+# Apple iCloud Private Relay
+DOMAIN,mask.icloud.com
+DOMAIN,mask-canary.icloud.com
+DOMAIN,mask-h2.icloud.com
+DOMAIN,mask-api.icloud.com
+DOMAIN,mask.apple-dns.net
+DOMAIN,canary.mask.apple-dns.net
+DOMAIN-SUFFIX,safebrowsing.apple
+
+# Apple Podcasts
+DOMAIN-SUFFIX,podcasts.apple.com
+DOMAIN-SUFFIX,podbean.com
+DOMAIN-SUFFIX,soundon.fm
+DOMAIN-SUFFIX,fm
+DOMAIN-SUFFIX,seahorseplanet.net
+# Apple Books
+DOMAIN,buy.itunes.apple.com
