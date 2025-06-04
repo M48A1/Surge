@@ -15,11 +15,7 @@ DOMAIN,weatherkit.apple.com
 
 
 
-#KEYWORD
-DOMAIN-KEYWORD,icloud
-DOMAIN-KEYWORD,itunes
-DOMAIN-KEYWORD,ls.apple
-DOMAIN-KEYWORD,cnd-apple
+
 
 
 #iBook
