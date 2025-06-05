@@ -8,10 +8,9 @@ DOMAIN,canary.mask.apple-dns.net
 DOMAIN-SUFFIX,safebrowsing.apple
 
 # Apple Podcasts
-DOMAIN-SUFFIX,podcasts.apple.com
+DOMAIN,podcasts.apple.com
 DOMAIN-SUFFIX,podbean.com
 DOMAIN-SUFFIX,soundon.fm
-DOMAIN-SUFFIX,fm
 DOMAIN-SUFFIX,seahorseplanet.net
 
 # Apple Books
