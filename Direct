@@ -15,3 +15,6 @@ PROCESS-NAME,Transmission
 PROCESS-NAME,uTorrent
 PROCESS-NAME,WebTorrent
 PROCESS-NAME,WebTorrent Helper
+
+# website
+DOMAIN-SUFFIX,futbin.com
