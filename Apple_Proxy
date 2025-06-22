@@ -24,3 +24,8 @@ DOMAIN,p44-fmfmobile.icloud.com
 DOMAIN,p44-fmf.icloud.com
 DOMAIN,p44-fmip.icloud.com
 DOMAIN,p44-fmipmobile.icloud.com
+
+
+#
+DOMAIN,proxy.safebrowsing.apple 
+DOMAIN,token.safebrowsing.apple
