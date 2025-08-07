@@ -10,7 +10,10 @@ DOMAIN,gdmf.apple.com
 DOMAIN,time.apple.com
 
 #icloud
-DOMAIN,gateway.icloud.com
+DOMAIN,gateway.icloud.co
+
+#Other
+DOMAIN,mesu.apple.com
 
 
 DOMAIN,sequoia.cdn-apple.com
