@@ -19,68 +19,12 @@ DOMAIN,weatherkit.apple.com
 #iBook
 DOMAIN,i-book.com
 DOMAIN,i-book.net
-DOMAIN-SUFFIX,ibook.com
-DOMAIN-SUFFIX,ibook.net
-DOMAIN-SUFFIX,ibookpartner.com
-DOMAIN-SUFFIX,ibooksauthor.com
 
 
 
-#Music
-
-DOMAIN-SUFFIX,wwwapplemusic.com
-DOMAIN-SUFFIX,applemusic.com
-DOMAIN-SUFFIX,applemusic.wang
-DOMAIN-SUFFIX,applemusicconnect.com
-DOMAIN-SUFFIX,applemusicfestival.com
-DOMAIN-SUFFIX,applemusic.com
-DOMAIN-SUFFIX,musickit.net
-DOMAIN-SUFFIX,amemv.com
 
 
 
-#TV
-
-DOMAIN-SUFFIX,appletv.wang
-DOMAIN-SUFFIX,appletv4.cn
-DOMAIN,appletv4.com.cn
-DOMAIN,appletvapp.apple
-
-
-
-#Gallery
-
-DOMAIN,apple-livephotoskit.com
-DOMAIN-SUFFIX,iphoto.wang
-
-#iCloud
-
-DOMAIN,icloud-content.com
-DOMAIN,icloud-isupport.com
-DOMAIN,icloud-sandbox.com
-DOMAIN,icloudads.net
-DOMAIN,icloudapple.cn
-DOMAIN,ios-icloud.com
-DOMAIN,apple-cloudkit.com
-DOMAIN,apple-icloud.cn
-DOMAIN,applemx-icloud.com
-DOMAIN-SUFFIX,icloudbox.net
-DOMAIN-SUFFIX,icloudbrowser.net
-DOMAIN-SUFFIX,icloude.com
-DOMAIN-SUFFIX,icloudhome.com
-DOMAIN-SUFFIX,icloudmail.net
-DOMAIN-SUFFIX,icloudmusic.net
-DOMAIN-SUFFIX,icloudnet.net
-DOMAIN-SUFFIX,icloudo.com
-DOMAIN-SUFFIX,icloudo.net
-DOMAIN-SUFFIX,icloudos.net
-DOMAIN-SUFFIX,icloudpay.net
-DOMAIN-SUFFIX,icloudsecure.net
-DOMAIN-SUFFIX,icloudsetup.com
-DOMAIN-SUFFIX,myicloud.net
-DOMAIN-SUFFIX,wwwicloud.com
-DOMAIN-SUFFIX,icloudads.net
-DOMAIN-SUFFIX,appleicloud.cn
 
 
 
