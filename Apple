@@ -15,21 +15,27 @@ DOMAIN,gateway.icloud.com
 #Other
 DOMAIN,mesu.apple.com
 DOMAIN,iphonesubmissions.apple.com
-
-
 DOMAIN,sequoia.cdn-apple.com
 DOMAIN,apple-relay.fastly-edge.com
 DOMAIN,weatherkit.apple.com
-
-
-
-#itunes
 DOMAIN,bag.itunes.apple.com
-
-
-#iBook
 DOMAIN,i-book.com
 DOMAIN,i-book.net
+DOMAIN,s.mzstatic.com
+DOMAIN,is1-ssl.mzstatic.com
+DOMAIN,gs-loc-cn.apple.com
+DOMAIN,edge-174.hkhkg2.icloud-content.com
+DOMAIN,configuration.apple.com
+DOMAIN,notes-analytics-events.apple.com
+DOMAIN,fpinit.itunes.apple.com
+DOMAIN,ocsp2.apple.com
+DOMAIN,gspe79-cn-ssl.ls.apple.com
+DOMAIN,guzzoni.apple.com
+DOMIAN,nit.itunes.apple.com
+DOMAIN,pancake.apple.com
+DOMAIN,gs-loc-cn.apple.com
+DOMAIN,aod.itunes.apple.com
+
 
 
 
