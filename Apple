@@ -3,13 +3,10 @@
 
 DOMAIN,swcdn.apple.com
 
-DOMAIN-SUFFIX,me.com
-DOMAIN-SUFFIX,apple.com
-DOMAIN-SUFFIX,apple.cn
-DOMAIN-SUFFIX,icloud.com
-DOMAIN-SUFFIX,apzones.com
-DOMAIN-SUFFIX,mzstatic.com
-DOMAIN,icloud-apple.cn
+#Update
+DOMAIN,gdmf.apple.com
+
+
 DOMAIN,sequoia.cdn-apple.com
 DOMAIN,apple-relay.fastly-edge.com
 DOMAIN,weatherkit.apple.com
