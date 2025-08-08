@@ -18,29 +18,38 @@ DOMAIN,iphonesubmissions.apple.com
 DOMAIN,sequoia.cdn-apple.com
 DOMAIN,apple-relay.fastly-edge.com
 DOMAIN,weatherkit.apple.com
-DOMAIN,bag.itunes.apple.com
+
 DOMAIN,i-book.com
 DOMAIN,i-book.net
-DOMAIN,s.mzstatic.com
+
 DOMAIN,is1-ssl.mzstatic.com
 DOMAIN,gs-loc-cn.apple.com
 DOMAIN,edge-174.hkhkg2.icloud-content.com
 DOMAIN,configuration.apple.com
 DOMAIN,notes-analytics-events.apple.com
-DOMAIN,fpinit.itunes.apple.com
+
 DOMAIN,ocsp2.apple.com
 DOMAIN,gspe79-cn-ssl.ls.apple.com
 DOMAIN,guzzoni.apple.com
-DOMAIN,nit.itunes.apple.com
 DOMAIN,pancake.apple.com
 DOMAIN,gs-loc-cn.apple.com
-DOMAIN,aod.itunes.apple.com
 DOMAIN,ls.apple.com
 DOMAIN,icloud-content.com
+
+
+#Music itunes
+DOMAIN,aod-ssl.itunes.apple.com
+DOMAIN,aod.itunes.apple.com
+DOMAIN,audio-ssl.itunes.apple.com
+DOMAIN,audio.itunes.apple.com
+DOMAIN,mvod.itunes.apple.com
+DOMAIN,streamingaudio.itunes.apple.com
+DOMAIN,fpinit.itunes.apple.com
+DOMAIN,nit.itunes.apple.com
+DOMAIN,s.mzstatic.com
+DOMAIN,bag.itunes.apple.com
 DOMAIN,play.itunes.apple.com
 DOMAIN,radio-activity.itunes.apple.com
-DOMAIN,streamingaudio.itunes.apple.com
-
 
 
 
