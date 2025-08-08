@@ -11,6 +11,7 @@ DOMAIN,time.apple.com
 
 #icloud
 DOMAIN,gateway.icloud.com
+DOMAIN-SUFFIX,metrics.icloud.com
 
 #Other
 DOMAIN,mesu.apple.com
