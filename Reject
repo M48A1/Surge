@@ -1,6 +1,7 @@
 
 
 DOMAIN,analytics.adjust.com
+DOMAIN,analytics.adjust.io
 
 # 通用 CDN 域名
 DOMAIN-SUFFIX, bsccdn.net
