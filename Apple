@@ -3,6 +3,9 @@
 
 DOMAIN,swcdn.apple.com
 
+#Apple
+DOMAIN,xp.apple.com
+
 #Push
 DOMAIN,init.push.apple.com
 DOMAIN-SUFFIX,push.apple.com
