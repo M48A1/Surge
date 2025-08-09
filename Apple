@@ -9,6 +9,8 @@ DOMAIN,xp.apple.com
 #Push
 DOMAIN,init.push.apple.com
 DOMAIN-SUFFIX,push.apple.com
+
+
 #Update
 DOMAIN,gdmf.apple.com
 
