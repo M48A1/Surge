@@ -14,10 +14,13 @@ DOMAIN-SUFFIX,push.apple.com
 #Update
 DOMAIN,gdmf.apple.com
 
+
+
 #Time
 DOMAIN,time.apple.com
 
 #icloud
+DOMAIN-SUFFIX,icloud.com
 DOMAIN,gateway.icloud.com
 DOMAIN-SUFFIX,metrics.icloud.com
 
