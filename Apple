@@ -11,8 +11,10 @@ DOMAIN-SUFFIX,cdn-apple.com
 DOMAIN-SUFFIX,apple-cloudkit.com
 DOMAIN-SUFFIX,mzstatic.com
 
+
 #Apple
 DOMAIN,xp.apple.com
+DOMAIN,sps-media.apple.com
 DOMAIN,swcdn.apple.com
 DOMAIN,init.push.apple.com
 DOMAIN,gdmf.apple.com
