@@ -15,6 +15,7 @@ DOMAIN-SUFFIX,mzstatic.com
 #Apple
 DOMAIN,xp.apple.com
 DOMAIN,sps-media.apple.com
+DOMAIN,gdmf-ados.apple.com
 DOMAIN,time.asia.apple.com
 DOMAIN,swcdn.apple.com
 DOMAIN,init.push.apple.com
