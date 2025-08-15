@@ -3,22 +3,19 @@
 
 
 DOMAIN-SUFFIX,itunes.apple.com
+DOMAIN-SUFFIX,push.apple.com
+DOMAIN-SUFFIX,mail.me.com
 
-DOMAIN,swcdn.apple.com
+
 
 #Apple
 DOMAIN,xp.apple.com
-
-#Push
+DOMAIN,swcdn.apple.com
 DOMAIN,init.push.apple.com
-DOMAIN-SUFFIX,push.apple.com
-
-
-#Update
 DOMAIN,gdmf.apple.com
 
 #Email
-DOMAIN-SUFFIX,mail.me.com
+
 
 
 #Time
