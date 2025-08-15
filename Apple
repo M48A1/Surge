@@ -1,6 +1,9 @@
 
 #Apple
 
+
+DOMAIN-SUFFIX,itunes.apple.com
+
 DOMAIN,swcdn.apple.com
 
 #Apple
@@ -72,6 +75,11 @@ DOMAIN,tv.applemusic.com
 DOMAIN,uts-api.itunes.apple.com
 DOMAIN,i-book.com
 DOMAIN,i-book.net
+
+
+#TV
+
+DOMAIN,vod-ap-aoc.tv.apple.com
 
 
 
