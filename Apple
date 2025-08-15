@@ -1,6 +1,7 @@
 
 #Apple
-
+DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,icloud.cn
 
 DOMAIN-SUFFIX,itunes.apple.com
 DOMAIN-SUFFIX,push.apple.com
@@ -13,35 +14,19 @@ DOMAIN,xp.apple.com
 DOMAIN,swcdn.apple.com
 DOMAIN,init.push.apple.com
 DOMAIN,gdmf.apple.com
-
-#Email
-
-
-
-#Time
 DOMAIN,time.apple.com
-
-#icloud
-DOMAIN-SUFFIX,icloud.com
-DOMAIN-SUFFIX,icloud.cn
 DOMAIN,gateway.icloud.com
 DOMAIN-SUFFIX,metrics.icloud.com
-
-#Other
 DOMAIN,mesu.apple.com
 DOMAIN,iphonesubmissions.apple.com
 DOMAIN,sequoia.cdn-apple.com
 DOMAIN,apple-relay.fastly-edge.com
 DOMAIN,weatherkit.apple.com
-
-
-
 DOMAIN,is1-ssl.mzstatic.com
 DOMAIN,gs-loc-cn.apple.com
 DOMAIN,edge-174.hkhkg2.icloud-content.com
 DOMAIN,configuration.apple.com
 DOMAIN,notes-analytics-events.apple.com
-
 DOMAIN,ocsp2.apple.com
 DOMAIN,gspe79-cn-ssl.ls.apple.com
 DOMAIN,guzzoni.apple.com
@@ -49,9 +34,6 @@ DOMAIN,pancake.apple.com
 DOMAIN,gs-loc-cn.apple.com
 DOMAIN,ls.apple.com
 DOMAIN,icloud-content.com
-
-
-#Music itunes TV
 DOMAIN,aod-ssl.itunes.apple.com
 DOMAIN,aod.itunes.apple.com
 DOMAIN,audio-ssl.itunes.apple.com
@@ -72,10 +54,6 @@ DOMAIN,tv.applemusic.com
 DOMAIN,uts-api.itunes.apple.com
 DOMAIN,i-book.com
 DOMAIN,i-book.net
-
-
-#TV
-
 DOMAIN,vod-ap-aoc.tv.apple.com
 DOMAIN,amp-api.videos.apple.com
 
