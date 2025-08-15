@@ -12,6 +12,7 @@ DOMAIN-SUFFIX,apple-cloudkit.com
 DOMAIN-SUFFIX,mzstatic.com
 DOMAIN-SUFFIX,ess.apple.com
 DOMAIN-SUFFIX,pcms.apple.com
+DOMAIN-SUFFIX,istoreos
 
 #Apple
 DOMAIN,xp.apple.com
