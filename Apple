@@ -2,12 +2,14 @@
 #Apple
 DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,icloud.cn
-
+DOMAIN-SUFFIX,icloud-content.com
 DOMAIN-SUFFIX,itunes.apple.com
 DOMAIN-SUFFIX,push.apple.com
 DOMAIN-SUFFIX,mail.me.com
-
-
+DOMAIN-SUFFIX,metrics.icloud.com
+DOMAIN-SUFFIX,cdn-apple.com
+DOMAIN-SUFFIX,apple-cloudkit.com
+DOMAIN-SUFFIX,mzstatic.com
 
 #Apple
 DOMAIN,xp.apple.com
@@ -15,16 +17,11 @@ DOMAIN,swcdn.apple.com
 DOMAIN,init.push.apple.com
 DOMAIN,gdmf.apple.com
 DOMAIN,time.apple.com
-DOMAIN,gateway.icloud.com
-DOMAIN-SUFFIX,metrics.icloud.com
 DOMAIN,mesu.apple.com
 DOMAIN,iphonesubmissions.apple.com
-DOMAIN,sequoia.cdn-apple.com
 DOMAIN,apple-relay.fastly-edge.com
 DOMAIN,weatherkit.apple.com
-DOMAIN,is1-ssl.mzstatic.com
 DOMAIN,gs-loc-cn.apple.com
-DOMAIN,edge-174.hkhkg2.icloud-content.com
 DOMAIN,configuration.apple.com
 DOMAIN,notes-analytics-events.apple.com
 DOMAIN,ocsp2.apple.com
@@ -33,30 +30,14 @@ DOMAIN,guzzoni.apple.com
 DOMAIN,pancake.apple.com
 DOMAIN,gs-loc-cn.apple.com
 DOMAIN,ls.apple.com
-DOMAIN,icloud-content.com
-DOMAIN,aod-ssl.itunes.apple.com
-DOMAIN,aod.itunes.apple.com
-DOMAIN,audio-ssl.itunes.apple.com
-DOMAIN,audio.itunes.apple.com
-DOMAIN,mvod.itunes.apple.com
-DOMAIN,streamingaudio.itunes.apple.com
-DOMAIN,fpinit.itunes.apple.com
-DOMAIN,nit.itunes.apple.com
-DOMAIN,s.mzstatic.com
-DOMAIN,bag.itunes.apple.com
-DOMAIN,play.itunes.apple.com
-DOMAIN,radio-activity.itunes.apple.com
-DOMAIN,hls-amt.itunes.apple.com
-DOMAIN,hls.itunes.apple.com
-DOMAIN,np-edge.itunes.apple.com
-DOMAIN,play-edge.itunes.apple.com
 DOMAIN,tv.applemusic.com
-DOMAIN,uts-api.itunes.apple.com
 DOMAIN,i-book.com
 DOMAIN,i-book.net
 DOMAIN,vod-ap-aoc.tv.apple.com
 DOMAIN,amp-api.videos.apple.com
 DOMAIN,sps-media.apple.com
+DOMAIN,gdmf-ados.apple.com
+DOMAIN,daf.xp.apple.com
 
 
 
