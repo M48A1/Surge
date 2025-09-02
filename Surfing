@@ -12,8 +12,10 @@ DOMAIN-SUFFIX,greasyfork.org
 DOMAIN-KEYWORD,greasyfork
 
 DOMAIN-SUFFIX,mozilla.org
-
+DOMAIN-SUFFIX,yahoo.com
 DOMAIN-SUFFIX,gitlab.com
 
 # infuse
 DOMAIN-SUFFIX,themoviedb.org
+
+
