@@ -18,6 +18,7 @@ USER-AGENT,istoreos
 
 #Apple
 DOMAIN,gsa.apple.com
+DOMAIN,help.apple.com
 DOMAIN,bpapi.apple.com
 DOMAIN,xp.apple.com
 DOMAIN,sps-media.apple.com
