@@ -14,7 +14,7 @@ DOMAIN-SUFFIX,ess.apple.com
 DOMAIN-SUFFIX,pcms.apple.com
 DOMAIN-SUFFIX,tv.apple.com
 DOMAIN-SUFFIX,ls.apple.com
-USER-AGENT,istoreos
+
 
 #Apple
 DOMAIN,gsa.apple.com
