@@ -2,9 +2,7 @@
 
 DOMAIN-SUFFIX,vercel.app
 DOMAIN-SUFFIX,vercel.com
-
 DOMAIN-SUFFIX,nssurge.com
-
 DOMAIN-SUFFIX,v2ex.com
 DOMAIN-KEYWORD,v2ex
 DOMAIN-SUFFIX,nodeseek.com
@@ -20,3 +18,4 @@ DOMAIN-SUFFIX,themoviedb.org
 
 # Fut
 DOMAIN-SUFFIX,fut.gg
+DOMAIN-SUFFIX,futbin.com
