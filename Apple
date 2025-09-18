@@ -18,6 +18,7 @@ DOMAIN-SUFFIX,ls.apple.com
 
 #Apple
 DOMAIN,gsa.apple.com
+DOMAIN,hls-svod.itunes.apple.com
 DOMAIN,amp-api.fitness.apple.com
 DOMAIN,help.apple.com
 DOMAIN,bpapi.apple.com
