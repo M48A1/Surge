@@ -59,8 +59,8 @@ DOMAIN,sync.itunes.apple.com
 #域名se2.itunes.apple.com主要用于苹果的iTunes内容分发网络（CDN），特别是为iTunes和Apple Music提供视频、音乐、图片等内容的高速传输和内容分发。
 DOMAIN,se2.itunes.apple.com
 
-
-
+#域名client-api.itunes.apple.com主要是苹果为iTunes及Apple Music客户端提供的API接口服务端点。它用于客户端与苹果的后端服务进行数据交互，包括：
+DOMAIN,client-api.itunes.apple.com
 
 
 
