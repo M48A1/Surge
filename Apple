@@ -54,9 +54,10 @@ DOMAIN,xp.apple.com
 
 
 #主要用于iTunes与苹果设备（如iPhone、iPad、iPod）之间的同步功能。它负责支持iTunes内容（如音乐、影片、播放列表、照片、联系人、日历等）在电脑和设备之间的数据同步。同步过程可以通过USB连接或者Wi-Fi进行，实现数据的一致性和备份更新。
-
 DOMAIN,sync.itunes.apple.com
 
+#域名se2.itunes.apple.com主要用于苹果的iTunes内容分发网络（CDN），特别是为iTunes和Apple Music提供视频、音乐、图片等内容的高速传输和内容分发。
+DOMAIN,se2.itunes.apple.com
 
 
 
