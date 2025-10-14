@@ -11,22 +11,3 @@ DOMAIN,token.safebrowsing.apple
 DOMAIN,gdmf.apple.com
 
 
-# music
-DOMAIN-SUFFIX,music.apple.com
-DOMAIN-SUFFIX,mzstatic.com
-DOMAIN-SUFFIX,applemusic.com
-DOMAIN,amp-api.music.apple.com
-DOMAIN,aod-ssl.itunes.apple.com
-DOMAIN,aod.itunes.apple.com
-DOMAIN,audio-ssl.itunes.apple.com
-DOMAIN,audio.itunes.apple.com
-DOMAIN,mvod.itunes.apple.com
-DOMAIN,streamingaudio.itunes.apple.com
-DOMAIN,blobstore.apple.com
-DOMAIN,fpinit.itunes.apple.com
-DOMAIN,play.itunes.apple.com
-DOMAIN,upp.itunes.apple.com
-DOMAIN,musicstatus.itunes.apple.com
-DOMAIN,init.itunes.apple.com
-DOMAIN,bag.itunes.apple.com
-DOMAIN,amp-api-edge.music.apple.com
