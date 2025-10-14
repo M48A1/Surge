@@ -15,6 +15,7 @@ DOMAIN,gdmf.apple.com
 DOMAIN-SUFFIX,music.apple.com
 DOMAIN-SUFFIX,mzstatic.com
 DOMAIN-SUFFIX,applemusic.com
+DOMAIN,amp-api.music.apple.com
 DOMAIN,aod-ssl.itunes.apple.com
 DOMAIN,aod.itunes.apple.com
 DOMAIN,audio-ssl.itunes.apple.com
@@ -28,3 +29,4 @@ DOMAIN,upp.itunes.apple.com
 DOMAIN,musicstatus.itunes.apple.com
 DOMAIN,init.itunes.apple.com
 DOMAIN,bag.itunes.apple.com
+DOMAIN,amp-api-edge.music.apple.com
