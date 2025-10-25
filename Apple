@@ -65,6 +65,8 @@ DOMAIN,se2.itunes.apple.com
 #域名client-api.itunes.apple.com主要是苹果为iTunes及Apple Music客户端提供的API接口服务端点。它用于客户端与苹果的后端服务进行数据交互，包括：
 DOMAIN,client-api.itunes.apple.com
 
+#域名 cma2.itunes.apple.com 是苹果公司（Apple Inc.）旗下的一个合法服务器子域，属于 iTunes / Apple 媒体服务基础架构的一部分，用于 Apple Music、iTunes Store、App Store 等服务的数据内容分发与验证 。
+DOMAIN,cma2.itunes.apple.com
 
 # music
 DOMAIN-SUFFIX,music.apple.com
