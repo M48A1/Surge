@@ -68,7 +68,7 @@ DOMAIN,client-api.itunes.apple.com
 #域名 cma2.itunes.apple.com 是苹果公司（Apple Inc.）旗下的一个合法服务器子域，属于 iTunes / Apple 媒体服务基础架构的一部分，用于 Apple Music、iTunes Store、App Store 等服务的数据内容分发与验证 。
 DOMAIN,cma2.itunes.apple.com
 
-#radio-activity.itunes.apple.com 是 Apple iTunes 及 Apple Music 服务相关的官方域名，用于音乐和广播内容的网络连接和数据传输。
+#域名radio-activity.itunes.apple.com 是 Apple iTunes 及 Apple Music 服务相关的官方域名，用于音乐和广播内容的网络连接和数据传输。
 DOMAIN,radio-activity.itunes.apple.com
 
 # music
