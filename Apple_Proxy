@@ -10,8 +10,9 @@ DOMAIN,token.safebrowsing.apple
 # system update
 DOMAIN,gdmf.apple.com
 
-# Podcast
+DOMAIN,lookup-api.apple.com 
 
-DOMAIN,podcast.apple.com
+
+# Podcast
 DOMAIN-SUFFIX,podcasts.apple.com
-DOMAIN-SUFFIX,podcastcdn.apple.com
+DOMAIN,bookkeeper.itunes.apple.com 
