@@ -16,3 +16,8 @@ DOMAIN,lookup-api.apple.com
 # Podcast
 DOMAIN-SUFFIX,podcasts.apple.com
 DOMAIN,bookkeeper.itunes.apple.com 
+
+# music
+DOMAIN,radio.itunes.apple.com
+DOMAIN,radio-activity.itunes.apple.com
+DOMAIN,itsliveradio.apple.com
