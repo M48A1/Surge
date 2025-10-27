@@ -49,7 +49,7 @@ DOMAIN,vod-ap-aoc.tv.apple.com
 DOMAIN,amp-api.videos.apple.com
 DOMAIN,sps-media.apple.com
 DOMAIN,gdmf-ados.apple.com
-DOMAIN,xp.apple.com
+
 
 
 #域名uts-api.itunes.apple.com 是苹果公司（Apple Inc.）旗下的官方子域名，主要用于 App Store 与 iTunes 的后台交易验证、购买同步和订阅服务 。该域与苹果的 应用内购买（IAP, In-App Purchase）机制 以及 StoreKit 框架紧密相关。
@@ -59,8 +59,6 @@ DOMAIN,daf.xp.apple.com
 #主要用于iTunes与苹果设备（如iPhone、iPad、iPod）之间的同步功能。它负责支持iTunes内容（如音乐、影片、播放列表、照片、联系人、日历等）在电脑和设备之间的数据同步。同步过程可以通过USB连接或者Wi-Fi进行，实现数据的一致性和备份更新。
 DOMAIN,sync.itunes.apple.com
 
-#域名se2.itunes.apple.com主要用于苹果的iTunes内容分发网络（CDN），特别是为iTunes和Apple Music提供视频、音乐、图片等内容的高速传输和内容分发。
-DOMAIN,se2.itunes.apple.com
 
 #域名client-api.itunes.apple.com主要是苹果为iTunes及Apple Music客户端提供的API接口服务端点。它用于客户端与苹果的后端服务进行数据交互，包括：
 DOMAIN,client-api.itunes.apple.com
@@ -75,9 +73,29 @@ DOMAIN,radio-activity.itunes.apple.com
 DOMAIN-SUFFIX,music.apple.com
 DOMAIN-SUFFIX,mzstatic.com
 DOMAIN-SUFFIX,applemusic.com
-DOMAIN,amp-api.music.apple.com
 DOMAIN,musicstatus.itunes.apple.com
 DOMAIN,amp-api-edge.music.apple.com
+DOMAIN,xp.apple.com
+DOMAIN,client-api.itunes.apple.com
+
+
+##域名se2.itunes.apple.com主要用于苹果的iTunes内容分发网络（CDN），特别是为iTunes和Apple Music提供视频、音乐、图片等内容的高速传输和内容分发。
+DOMAIN,se2.itunes.apple.com
+
+## 初始化
+DOMAIN,init.itunes.apple.com
+## 音乐和MV播放
+mvod.itunes.apple.com
+play.itunes.apple.com
+aod.itunes.apple.com
+
+## 搜索相关
+DOMAIN,amp-api.music.apple.com
+
+
+## 资料库更新
+DOMAIN,librarydaap.itunes.apple.com
+DOMAIN,sync.itunes.apple.com
 
 
 
