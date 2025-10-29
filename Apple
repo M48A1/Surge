@@ -85,9 +85,9 @@ DOMAIN,se2.itunes.apple.com
 ## 初始化
 DOMAIN,init.itunes.apple.com
 ## 音乐和MV播放
-mvod.itunes.apple.com
-play.itunes.apple.com
-aod.itunes.apple.com
+DOMAIN,mvod.itunes.apple.com
+DOMAIN,play.itunes.apple.com
+DOMAIN,aod.itunes.apple.com
 
 ## 搜索相关
 DOMAIN,amp-api.music.apple.com
