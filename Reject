@@ -4,7 +4,7 @@ DOMAIN,analytics.adjust.com
 DOMAIN,analytics.adjust.io
 
 # 跳过农行app检测
-DOMAIN,msmp.abcchina.com.cn
+DOMAIN,msmp.abchina.com.cn
 
 # 通用 CDN 域名
 DOMAIN-SUFFIX,bsccdn.net
