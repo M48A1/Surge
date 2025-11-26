@@ -29,6 +29,7 @@ DOMAIN-SUFFIX,alipayobjects.com
 DOMAIN-SUFFIX,alibaba.com
 DOMAIN-SUFFIX,aliyun.com
 DOMAIN-SUFFIX,alibabacloud.com
+DOMAIN-SUFFIX,aliyuncs.com
 
 # 华泰
 IP-CIDR,47.106.0.0/24
