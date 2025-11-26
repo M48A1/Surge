@@ -6,7 +6,7 @@
 
 ## 插件
 * https://surge.qingr.moe
-* https://github.com/Rabbit-Spec/Surge/tree/Master/Module
+
 
 ## 其他配置信息
 ### GEOIP
@@ -26,32 +26,4 @@ https://geodata.kelee.one/GeoLite2-ASN-P3TERX.mmdb
 * https://github.com/Rabbit-Spec/Surge
 
 
-## 图标
 
-
-###  非彩色图标
-* 整合图标合集 https://raw.githubusercontent.com/weigeshen/-/main/TuBiao/TuBiaoDingYue.json
-* fmz200の图标合集 https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/icons-all.json
-* 图标合集：https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor.json
-* 黑白图标集 https://raw.githubusercontent.com/Koolson/Qure/master/Other/Quremini.json
-* 透明图标集 https://github.com/Koolson/Qure/raw/master/Other/QureLight-All.json
-* 离歌图标集 https://raw.githubusercontent.com/lige47/QuanX-icon-rule/main/ligeicon-surge.json
-* 可莉的旗帜图标 https://gitlab.com/lodepuly/iconlibrary/-/raw/main/Flag_icon/ColorfulStaticFlag.json
-
-
-
-### 彩色图标
-* 彩色小图标 https://raw.githubusercontent.com/Orz-3/mini/master/mini.json
-* Color+ https://raw.githubusercontent.com/Orz-3/mini/master/Color%2B.json
-* mini Color https://raw.githubusercontent.com/Orz-3/mini/master/miniColor.json
-* 其它图标 https://raw.githubusercontent.com/Orz-3/mini/master/mini%2B.json
-* 应用与游戏 https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor-AppGame.json
-* 归档 https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor-Archived.json
-* 地区国旗 https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor-Area.json
-* 常用 https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor-Common.json
-* 默认 https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor-Default.json
-* 禁止 https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor-Inhibition.json
-* 流媒体 https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor-Media.json
-* 其它 https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor-Other.json
-* 服务器 https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor-Server.json
-* 服务 https://raw.githubusercontent.com/Koolson/Qure/master/Other/QureColor-Service.json
