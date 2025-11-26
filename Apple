@@ -17,6 +17,7 @@ DOMAIN-SUFFIX,ls.apple.com
 
 
 #Apple
+DOMAIN,ca.iadsdk.apple.com
 DOMAIN,bag.itunes.apple.com
 DOMAIN,konut-cdn.apple.com
 DOMAIN,gsa.apple.com
