@@ -17,6 +17,9 @@ DOMAIN-SUFFIX,ls.apple.com
 
 
 #Apple
+DOMAIN,fmfmobile.icloud.com
+DOMAIN,fmipmobile.icloud.com
+DOMAIN,statici.icloud.com
 DOMAIN,stocks-data-service.apple.com
 DOMAIN,ca.iadsdk.apple.com
 DOMAIN,bag.itunes.apple.com
