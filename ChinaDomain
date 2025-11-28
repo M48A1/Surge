@@ -519,7 +519,30 @@ DOMAIN-SUFFIX,imgcache.qq.com # QQ 图片缓存与 CDN 加速域名
 DOMAIN-SUFFIX,ovscdns.com # QQ 云服务与跳转中转节点  
 DOMAIN-SUFFIX,qlogo.cn # QQ 头像 CDN 与标识服务域名  
 DOMAIN-SUFFIX,icq.com # 旧版 QQ 国际服务（ICQ）跳转域名  
-
+#WeChat
+DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net
+DOMAIN,btrace.qq.com
+DOMAIN,dldir1.qq.com
+DOMAIN,slife.xy-asia.com
+DOMAIN,soup.v.qq.com
+DOMAIN,vweixinf.tc.qq.com
+DOMAIN,weixin110.qq.com
+DOMAIN,wup.imtt.qq.com
+DOMAIN,wx.tenpay.com
+DOMAIN,wxapp.tc.qq.com
+DOMAIN,iot-tencent.com
+DOMAIN-SUFFIX,map.qq.com
+DOMAIN-SUFFIX,qlogo.cn
+DOMAIN-SUFFIX,qpic.cn
+DOMAIN-SUFFIX,servicewechat.com
+DOMAIN,vweixinthumb.tc.qq.com
+DOMAIN-SUFFIX,wechat.com
+DOMAIN-SUFFIX,wechatos.net
+DOMAIN-SUFFIX,weixin.com
+DOMAIN-SUFFIX,weixin.qq.com
+DOMAIN-SUFFIX,wx.gtimg.com
+DOMAIN-SUFFIX,wx.qq.com
+DOMAIN-SUFFIX,wxs.qq.com
 # > 中国电信服务相关域名
 
 DOMAIN-SUFFIX,21cn.com # 中国电信旗下 21CN 网站与业务域名，用于企业服务与通信接口
