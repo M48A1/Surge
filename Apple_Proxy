@@ -21,3 +21,15 @@ DOMAIN,bookkeeper.itunes.apple.com
 DOMAIN,radio.itunes.apple.com
 DOMAIN,radio-activity.itunes.apple.com
 DOMAIN,itsliveradio.apple.com
+
+# tv
+DOMAIN,hls-amt.itunes.apple.com
+DOMAIN,hls.itunes.apple.com
+DOMAIN,np-edge.itunes.apple.com
+DOMAIN,play-edge.itunes.apple.com
+DOMAIN,tv.applemusic.com
+DOMAIN,uts-api.itunes.apple.com
+DOMAIN-SUFFIX,tv.apple.com
+USER-AGENT,AppleTV*
+USER-AGENT,com.apple.tv*
+PROCESS-NAME,TV
