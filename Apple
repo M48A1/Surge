@@ -12,7 +12,6 @@ DOMAIN-SUFFIX,apple-cloudkit.com
 
 DOMAIN-SUFFIX,ess.apple.com
 DOMAIN-SUFFIX,pcms.apple.com
-DOMAIN-SUFFIX,tv.apple.com
 DOMAIN-SUFFIX,ls.apple.com
 
 
@@ -52,8 +51,6 @@ DOMAIN,ls.apple.com
 DOMAIN,tv.applemusic.com
 DOMAIN,i-book.com
 DOMAIN,i-book.net
-DOMAIN,vod-ap-aoc.tv.apple.com
-DOMAIN,amp-api.videos.apple.com
 DOMAIN,sps-media.apple.com
 DOMAIN,gdmf-ados.apple.com
 
