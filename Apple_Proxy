@@ -9,7 +9,6 @@ DOMAIN,token.safebrowsing.apple
 
 # system update
 DOMAIN,gdmf.apple.com
-
 DOMAIN,lookup-api.apple.com 
 
 
