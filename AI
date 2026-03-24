@@ -2,6 +2,7 @@
 
 #chatbox
 DOMAIN-SUFFIX,chatbox.ai
+DOMAIN-SUFFIX,chatboxai.app
 
 #OpenAI
 DOMAIN,openai.com.cdn.cloudflare.net
