@@ -1,4 +1,8 @@
 
+
+# wps
+DOMAIN,wps.apple.com
+
 #Apple
 DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,icloud.cn
