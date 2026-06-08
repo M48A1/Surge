@@ -3,6 +3,10 @@
 # wps
 DOMAIN,wps.apple.com
 
+# cn
+
+DOMAIN-SUFFIX,apple.cn
+
 #Apple
 DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,icloud.cn
