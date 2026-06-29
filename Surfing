@@ -20,11 +20,8 @@ DOMAIN-SUFFIX,mozilla.org
 DOMAIN-SUFFIX,yahoo.com
 DOMAIN-SUFFIX,gitlab.com
 DOMAIN-SUFFIX,imgur.com
-
 DOMAIN-SUFFIX,kagi.com
 DOMAIN-SUFFIX,weather-in-calendar.com
-
-
 
 # Fut
 DOMAIN-SUFFIX,fut.gg
