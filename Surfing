@@ -3,6 +3,9 @@
 
 DOMAIN-SUFFIX,motorolanetwork.com
 
+# wiki
+DOMAIN-SUFFIX,wikipedia.org
+
 #Surfing
 DOMAIN-SUFFIX,2libra.com
 DOMAIN-SUFFIX,vercel.app
