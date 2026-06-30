@@ -1,8 +1,9 @@
 
 # motosync+
-
 DOMAIN-SUFFIX,motorolanetwork.com
 
+# yandex
+DOMAIN-SUFFIX,yandex.com
 # wiki
 DOMAIN-SUFFIX,wikipedia.org
 
