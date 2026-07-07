@@ -1,0 +1,387 @@
+# ================= 基础设置 =================
+
+mixed-port: 7890
+allow-lan: true
+mode: rule
+log-level: info
+ipv6: true
+unified-delay: true
+tcp-concurrent: true
+global-ua: clash.meta
+
+profile:
+  store-selected: true
+  store-fake-ip: false
+
+geodata-mode: false
+geo-auto-update: true
+geo-update-interval: 48
+
+# ================= 锚点区 =================
+
+Proxy_first: &Proxy_first
+  type: select
+  proxies:
+    - 节点选择
+    - 新加坡节点
+    - 日本节点
+    - 美国节点
+    - 全部节点
+    - 全球直连
+
+Direct_first: &Direct_first
+  type: select
+  proxies:
+    - 全球直连
+    - 节点选择
+    - 新加坡节点
+    - 日本节点
+    - 美国节点
+    - 全部节点
+
+Urltest_Base: &Urltest_Base
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  tolerance: 50
+  lazy: true
+
+VLESS_REALITY: &VLESS_REALITY
+  type: vless
+  port: 443
+  network: tcp
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+
+rule-anchor:
+  ip: &ip {type: http, interval: 86400, behavior: ipcidr, format: mrs}
+  domain: &domain {type: http, interval: 86400, behavior: domain, format: mrs}
+
+# ================= 嗅探 =================
+
+sniffer:
+  enable: true
+  sniff:
+    HTTP:
+      ports: [80, 8080-8880]
+      override-destination: true
+    TLS:
+      ports: [443, 8443]
+    QUIC:
+      ports: [443, 8443]
+  force-domain:
+    - "*.v2ex.com"
+  skip-domain:
+    - "Mijia Cloud"
+    - "*.apple.com"
+    - "*.push.apple.com"
+    - "*.wechat.com"
+    - "*.qq.com"
+    - "*.qpic.cn"
+    - "*.oray.com"
+    - "*.sunlogin.net"
+
+# ================= TUN =================
+
+tun:
+  enable: true
+  stack: mixed
+  mtu: 9000
+  dns-hijack:
+    - any:53
+    - tcp://any:53
+  auto-route: true
+  auto-redirect: true
+  auto-detect-interface: true
+
+# ================= DNS 分流 =================
+
+dns:
+  enable: true
+  listen: 0.0.0.0:1053
+  ipv6: true
+  prefer-h3: false
+  respect-rules: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 28.0.0.1/8
+  fake-ip-range6: 2001:480:abcd::1/64
+
+  fake-ip-filter-mode: blacklist
+  fake-ip-filter:
+    - "*.lan"
+    - "*.local"
+    - "*.msftconnecttest.com"
+    - "*.msftncsi.com"
+    - "*.push.apple.com"
+    - "*.apple.com"
+    - "*.wechat.com"
+    - "*.qq.com"
+    - "rule-set:private_domain,cn_domain,apple_cn_domain,wechat_domain,bank_cn_domain,direct_domain"
+
+  default-nameserver:
+    - 119.29.29.29
+    - 223.5.5.5
+
+  direct-nameserver:
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+
+  proxy-server-nameserver:
+    - https://dns.google/dns-query
+    - https://dns.cloudflare.com/dns-query
+
+  nameserver:
+    - https://dns.google/dns-query
+    - https://dns.cloudflare.com/dns-query
+
+  nameserver-policy:
+    "rule-set:cn_domain,private_domain,apple_cn_domain,wechat_domain,bank_cn_domain,direct_domain":
+      - https://doh.pub/dns-query
+      - https://dns.alidns.com/dns-query
+    "rule-set:openai_domain,ai_domain,telegram_domain,google_domain,youtube_domain,github_domain":
+      - https://dns.google/dns-query
+      - https://dns.cloudflare.com/dns-query
+
+# ================= 节点 =================
+
+proxies:
+  - name: "🟢 直连"
+    type: direct
+    udp: true
+
+  - name: SG-01
+    <<: *VLESS_REALITY
+    server: sg.example.com
+    uuid: YOUR-SG-UUID
+    servername: shopee.sg
+    reality-opts:
+      public-key: YOUR-SG-PUBLIC-KEY
+      short-id: YOUR-SG-SHORT-ID
+
+  - name: JP-01
+    <<: *VLESS_REALITY
+    server: jp.example.com
+    uuid: YOUR-JP-UUID
+    servername: www.cloudflare.com
+    reality-opts:
+      public-key: YOUR-JP-PUBLIC-KEY
+      short-id: YOUR-JP-SHORT-ID
+
+  - name: US-01
+    <<: *VLESS_REALITY
+    server: us.example.com
+    uuid: YOUR-US-UUID
+    servername: www.dell.com
+    reality-opts:
+      public-key: YOUR-US-PUBLIC-KEY
+      short-id: YOUR-US-SHORT-ID
+
+# ================= 策略组 =================
+
+proxy-groups:
+  - name: 节点选择
+    type: select
+    proxies:
+      - 新加坡节点
+      - 日本节点
+      - 美国节点
+      - 全部节点
+      - 全球直连
+
+  - name: 新加坡节点
+    type: select
+    proxies:
+      - SG-01
+
+  - name: 日本节点
+    type: select
+    proxies:
+      - JP-01
+
+  - name: 美国节点
+    type: select
+    proxies:
+      - US-01
+
+  - name: 全部节点
+    <<: *Urltest_Base
+    proxies:
+      - SG-01
+      - JP-01
+      - US-01
+
+  - name: 全球直连
+    type: select
+    proxies:
+      - 🟢 直连
+      - 节点选择
+
+  - name: YouTube
+    <<: *Proxy_first
+
+  - name: Google
+    <<: *Proxy_first
+
+  - name: AI
+    type: select
+    proxies:
+      - 新加坡节点
+      - 美国节点
+      - 日本节点
+      - 全部节点
+
+  - name: GitHub
+    <<: *Proxy_first
+
+  - name: Telegram
+    <<: *Proxy_first
+
+  - name: Microsoft
+    <<: *Proxy_first
+
+  - name: Apple
+    <<: *Direct_first
+
+  - name: NETFLIX
+    <<: *Proxy_first
+
+  - name: DisneyPlus
+    <<: *Proxy_first
+
+  - name: TikTok
+    <<: *Proxy_first
+
+  - name: Spotify
+    <<: *Proxy_first
+
+  - name: 国外电商
+    <<: *Proxy_first
+
+  - name: 国内媒体
+    <<: *Direct_first
+
+  - name: 隐私拦截
+    type: select
+    proxies:
+      - REJECT
+      - REJECT-DROP
+      - 🟢 直连
+
+  - name: Final
+    type: select
+    proxies:
+      - 节点选择
+      - 全部节点
+      - 全球直连
+
+# ================= 分流规则 =================
+
+rules:
+  # 拦截广告
+  - RULE-SET,banAd_domain,隐私拦截
+
+  # QUIC 阻断
+  - AND,((NETWORK,UDP),(DST-PORT,443)),REJECT
+
+  # 国内 / 私有 / 微信 / 银行直连
+  - RULE-SET,private_domain,全球直连
+  - RULE-SET,private_ip,全球直连,no-resolve
+  - RULE-SET,wechat_domain,全球直连
+  - RULE-SET,bank_cn_domain,全球直连
+  - RULE-SET,direct_domain,全球直连
+  - RULE-SET,cn_domain,全球直连
+  - RULE-SET,cn_ip,全球直连,no-resolve
+
+  # Apple 默认直连优先
+  - RULE-SET,apple_cn_domain,全球直连
+  - RULE-SET,apple_domain,Apple
+
+  # AI
+  - RULE-SET,openai_domain,AI
+  - RULE-SET,ai_domain,AI
+  - RULE-SET,ai!cn_domain,AI
+
+  # Google / YouTube
+  - RULE-SET,youtube_domain,YouTube
+  - RULE-SET,google_domain,Google
+  - RULE-SET,google_ip,Google,no-resolve
+
+  # GitHub / Telegram / Microsoft
+  - RULE-SET,github_domain,GitHub
+  - RULE-SET,telegram_domain,Telegram
+  - RULE-SET,telegram_ip,Telegram,no-resolve
+  - RULE-SET,microsoft_domain,Microsoft
+
+  # 流媒体
+  - RULE-SET,netflix_domain,NETFLIX
+  - RULE-SET,netflix_ip,NETFLIX,no-resolve
+  - RULE-SET,disney_domain,DisneyPlus
+  - RULE-SET,tiktok_domain,TikTok
+  - RULE-SET,spotify_domain,Spotify
+
+  # 电商
+  - RULE-SET,Amazon_domain,国外电商
+  - RULE-SET,Shopee_domain,国外电商
+  - RULE-SET,Shopify_domain,国外电商
+  - RULE-SET,ebay_domain,国外电商
+
+  # 国内媒体
+  - RULE-SET,bilibili_domain,国内媒体
+  - RULE-SET,media_cn_domain,国内媒体
+
+  # 常规代理
+  - RULE-SET,gfw_domain,节点选择
+  - RULE-SET,geolocation-!cn,节点选择
+
+  # 兜底
+  - MATCH,Final
+
+# ================= 规则集 =================
+
+rule-providers:
+  banAd_domain: {<<: *domain, url: "https://raw.githubusercontent.com/Lanlan13-14/Rules/refs/heads/main/rules/Domain/banAd_mini.mrs"}
+
+  private_domain: {<<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/private.mrs"}
+  private_ip: {<<: *ip, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geoip/private.mrs"}
+
+  cn_domain: {<<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/cn.mrs"}
+  cn_ip: {<<: *ip, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/cn.mrs"}
+
+  wechat_domain: {<<: *domain, url: "https://raw.githubusercontent.com/Lanlan13-14/Rules/refs/heads/main/rules/Domain/WeChat.mrs"}
+  bank_cn_domain: {<<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-bank-cn.mrs"}
+  direct_domain: {<<: *domain, url: "https://raw.githubusercontent.com/Lanlan13-14/Rules/refs/heads/main/rules/Domain/direct.mrs"}
+
+  apple_cn_domain: {<<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/apple%40cn.mrs"}
+  apple_domain: {<<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/apple.mrs"}
+
+  openai_domain: {<<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/openai.mrs"}
+  ai_domain: {<<: *domain, url: "https://raw.githubusercontent.com/Lanlan13-14/Rules/refs/heads/main/rules/Domain/ai.mrs"}
+  ai!cn_domain: {<<: *domain, url: "https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/category-ai-!cn.mrs"}
+
+  youtube_domain: {<<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/youtube.mrs"}
+  google_domain: {<<: *domain, url: "https://raw.githubusercontent.com/Lanlan13-14/Rules/refs/heads/main/rules/Domain/google.mrs"}
+  google_ip: {<<: *ip, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/google.mrs"}
+
+  github_domain: {<<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/github.mrs"}
+  telegram_domain: {<<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/telegram.mrs"}
+  telegram_ip: {<<: *ip, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/telegram.mrs"}
+  microsoft_domain: {<<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/microsoft.mrs"}
+
+  netflix_domain: {<<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/netflix.mrs"}
+  netflix_ip: {<<: *ip, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/netflix.mrs"}
+  disney_domain: {<<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/disney.mrs"}
+  tiktok_domain: {<<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/tiktok.mrs"}
+  spotify_domain: {<<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/spotify.mrs"}
+
+  Amazon_domain: {<<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/amazon.mrs"}
+  Shopee_domain: {<<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/shopee.mrs"}
+  Shopify_domain: {<<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/shopify.mrs"}
+  ebay_domain: {<<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/ebay.mrs"}
+
+  bilibili_domain: {<<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/bilibili.mrs"}
+  media_cn_domain: {<<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/refs/heads/meta/geo/geosite/category-media-cn.mrs"}
+
+  gfw_domain: {<<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/gfw.mrs"}
+  geolocation-!cn: {<<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/geolocation-!cn.mrs"}
