@@ -1,38 +1,5 @@
-
-
-# GSX (Global Service Exchange) and ATLAS (Apple Technical Learning Administration System).
-host, gsa.apple.com
-
-# Safari spam
-host, proxy.safebrowsing.apple
-host, token.safebrowsing.apple
-
-# system update
-host, gdmf.apple.com
-host, lookup-api.apple.com
-
-
-# Podcast
+# Podcast：使用外区账号或国外节目加载异常时保留
 host-suffix, podcasts.apple.com
 host, bookkeeper.itunes.apple.com
 
-# music
-host, radio.itunes.apple.com
-host, radio-activity.itunes.apple.com
-host, itsliveradio.apple.com
 
-# tv
-host, hls-amt.itunes.apple.com
-host, hls.itunes.apple.com
-host, np-edge.itunes.apple.com
-host, play-edge.itunes.apple.com
-host, tv.applemusic.com
-host, uts-api.itunes.apple.com
-host-suffix, tv.apple.com
-user-agent, AppleTV*
-user-agent, com.apple.tv*
-process-name, TV
-
-# fitness
-host, amp-api.fitness.apple.com
-host, hls-svod.itunes.apple.com
