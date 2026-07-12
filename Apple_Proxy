@@ -1,38 +1,38 @@
 
 
 # GSX (Global Service Exchange) and ATLAS (Apple Technical Learning Administration System).
-DOMAIN,gsa.apple.com
+host, gsa.apple.com
 
 # Safari spam
-DOMAIN,proxy.safebrowsing.apple 
-DOMAIN,token.safebrowsing.apple
+host, proxy.safebrowsing.apple
+host, token.safebrowsing.apple
 
 # system update
-DOMAIN,gdmf.apple.com
-DOMAIN,lookup-api.apple.com 
+host, gdmf.apple.com
+host, lookup-api.apple.com
 
 
 # Podcast
-DOMAIN-SUFFIX,podcasts.apple.com
-DOMAIN,bookkeeper.itunes.apple.com 
+host-suffix, podcasts.apple.com
+host, bookkeeper.itunes.apple.com
 
 # music
-DOMAIN,radio.itunes.apple.com
-DOMAIN,radio-activity.itunes.apple.com
-DOMAIN,itsliveradio.apple.com
+host, radio.itunes.apple.com
+host, radio-activity.itunes.apple.com
+host, itsliveradio.apple.com
 
 # tv
-DOMAIN,hls-amt.itunes.apple.com
-DOMAIN,hls.itunes.apple.com
-DOMAIN,np-edge.itunes.apple.com
-DOMAIN,play-edge.itunes.apple.com
-DOMAIN,tv.applemusic.com
-DOMAIN,uts-api.itunes.apple.com
-DOMAIN-SUFFIX,tv.apple.com
-USER-AGENT,AppleTV*
-USER-AGENT,com.apple.tv*
-PROCESS-NAME,TV
+host, hls-amt.itunes.apple.com
+host, hls.itunes.apple.com
+host, np-edge.itunes.apple.com
+host, play-edge.itunes.apple.com
+host, tv.applemusic.com
+host, uts-api.itunes.apple.com
+host-suffix, tv.apple.com
+user-agent, AppleTV*
+user-agent, com.apple.tv*
+process-name, TV
 
 # fitness
-DOMAIN,amp-api.fitness.apple.com
-DOMAIN,hls-svod.itunes.apple.com
+host, amp-api.fitness.apple.com
+host, hls-svod.itunes.apple.com
