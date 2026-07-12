@@ -1,29 +1,27 @@
 # dnschecker.org
-DOMAIN-SUFFIX,dnschecker.org
+host-suffix, dnschecker.org
 
 # deepseek
-DOMAIN-SUFFIX,deepseek.com
-
+host-suffix, deepseek.com
 
 # siliconflow
-DOMAIN-SUFFIX,siliconflow.cn
-DOMAIN-SUFFIX,siliconflow.com
+host-suffix, siliconflow.cn
+host-suffix, siliconflow.com
 
-# ABC 
-DOMAIN-SUFFIX,5gd.cn
-DOMAIN,mb-mbc.cdn-static.abchina.com.cn
+# ABC
+host-suffix, 5gd.cn
+host, mb-mbc.cdn-static.abchina.com.cn
 
 # kehua
-DOMAIN-SUFFIX,tideswing.fun
+host-suffix, tideswing.fun
 
 # jpush
-DOMAIN-SUFFIX,jpush.cn
+host-suffix, jpush.cn
 
 # zhibo8
-DOMAIN-SUFFIX,zhibo8.com
-DOMAIN-SUFFIX,zhibo8.cc
+host-suffix, zhibo8.com
+host-suffix, zhibo8.cc
 
 # jd
-DOMAIN-SUFFIX,360buyimg.com
-DOMAIN-SUFFIX,jd.com
-
+host-suffix, 360buyimg.com
+host-suffix, jd.com
