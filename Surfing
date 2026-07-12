@@ -1,35 +1,34 @@
 
 # motosync+
-DOMAIN-SUFFIX,motorolanetwork.com
+host-suffix, motorolanetwork.com
 
 # yandex
-DOMAIN-SUFFIX,yandex.com
+host-suffix, yandex.com
 # wiki
-DOMAIN-SUFFIX,wikipedia.org
-DOMAIN-SUFFIX,wikimedia.org
+host-suffix, wikipedia.org
+host-suffix, wikimedia.org
 
 #Surfing
-DOMAIN-SUFFIX,2libra.com
-DOMAIN-SUFFIX,vercel.app
-DOMAIN-SUFFIX,vercel.com
-DOMAIN-SUFFIX,nssurge.com
-DOMAIN-SUFFIX,v2ex.com
-DOMAIN-KEYWORD,v2ex
-DOMAIN-SUFFIX,nodeseek.com
-DOMAIN-SUFFIX,nodeimage.com
-DOMAIN-SUFFIX,greasyfork.org
-DOMAIN-KEYWORD,greasyfork
-DOMAIN-SUFFIX,mozilla.org
-DOMAIN-SUFFIX,yahoo.com
-DOMAIN-SUFFIX,gitlab.com
-DOMAIN-SUFFIX,imgur.com
-DOMAIN-SUFFIX,kagi.com
-DOMAIN-SUFFIX,weather-in-calendar.com
+host-suffix, 2libra.com
+host-suffix, vercel.app
+host-suffix, vercel.com
+host-suffix, nssurge.com
+host-suffix, v2ex.com
+host-keyword, v2ex
+host-suffix, nodeseek.com
+host-suffix, nodeimage.com
+host-suffix, greasyfork.org
+host-keyword, greasyfork
+host-suffix, mozilla.org
+host-suffix, yahoo.com
+host-suffix, gitlab.com
+host-suffix, imgur.com
+host-suffix, kagi.com
+host-suffix, weather-in-calendar.com
 
 # Fut
-DOMAIN-SUFFIX,fut.gg
-DOMAIN-SUFFIX,futbin.com
-
+host-suffix, fut.gg
+host-suffix, futbin.com
 
 
 
