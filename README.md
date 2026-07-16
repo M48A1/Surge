@@ -8,3 +8,6 @@
 
 
 
+*「GeoLite2」
+* https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb
+* https://github.com/Hackl0us/GeoIP2-CN/raw/release/Country.mmdb
