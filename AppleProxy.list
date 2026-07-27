@@ -26,7 +26,6 @@ HOST,news-edge.apple.com
 HOST,news-events.apple.com
 HOST,testflight.apple.com
 HOST-SUFFIX,apple.news
-HOST-SUFFIX,appsto.re
 USER-AGENT,AppleNews*
 USER-AGENT,com.apple.news*
 
