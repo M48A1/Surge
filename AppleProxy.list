@@ -16,7 +16,6 @@ HOST,uts-api.itunes.apple.com
 HOST-SUFFIX,tv.apple.com
 USER-AGENT,AppleTV*
 USER-AGENT,com.apple.tv*
-HOST,apps.apple.com
 HOST,books.itunes.apple.com
 HOST,audio-ssl.itunes.apple.com
 HOST,js-cdn.music.apple.com
