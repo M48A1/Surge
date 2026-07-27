@@ -1,0 +1,12 @@
+# NAME: AppleMail
+
+HOST-SUFFIX,mail.icloud.com.cn
+HOST-SUFFIX,mail.me.com
+
+# NAME: AppleID
+
+HOST,appleid.apple.com
+HOST,appleid.cdn-apple.com
+HOST,gsa.apple.com
+HOST,idmsa.apple.com
+
