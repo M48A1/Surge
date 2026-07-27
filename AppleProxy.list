@@ -29,3 +29,13 @@ HOST-SUFFIX,apple.news
 HOST-SUFFIX,appsto.re
 USER-AGENT,AppleNews*
 USER-AGENT,com.apple.news*
+
+
+# NAME: iCloudPrivateRelay
+
+HOST,mask-api.fe.apple-dns.net
+HOST,mask-api.icloud.com
+HOST,mask-t.apple-dns.net
+HOST,mask.apple-dns.net
+HOST-SUFFIX,mask-h2.icloud.com
+HOST-SUFFIX,mask.icloud.com
