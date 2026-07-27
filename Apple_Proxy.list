@@ -1,0 +1,17 @@
+# Podcast：使用外区账号或国外节目加载异常时保留
+host-suffix, podcasts.apple.com
+host, bookkeeper.itunes.apple.com
+
+
+
+
+# Apple TV+ 主站及视频服务
+host-suffix, tv.apple.com
+
+# Apple TV 内容接口、鉴权和播放
+host, uts-api.itunes.apple.com
+host, play-edge.itunes.apple.com
+host, hls.itunes.apple.com
+host, hls-amt.itunes.apple.com
+host, aod.itunes.apple.com
+
