@@ -10,12 +10,6 @@ HOST,appleid.cdn-apple.com
 HOST,gsa.apple.com
 HOST,idmsa.apple.com
 
-# NAME: AppStore
-
-HOST,apps.apple.com
-HOST,itunes.apple.com
-
-
 # NAME: AppleMusic
 
 HOST,aod-ssl.itunes.apple.com,AppleMusic
@@ -28,6 +22,73 @@ HOST-SUFFIX,applemusic.com,AppleMusic
 HOST-SUFFIX,blobstore.apple.com,AppleMusic
 HOST-SUFFIX,music.apple.com,AppleMusic
 USER-AGENT,Music*,AppleMusic
+
+
+# Apple 官网及基础服务
+HOST-SUFFIX,apple.com
+HOST-SUFFIX,apple.cn
+HOST-SUFFIX,apple.com.cn
+HOST-SUFFIX,edge.apple
+
+# App Store
+HOST-SUFFIX,apps.apple.com
+HOST-SUFFIX,appsto.re
+HOST-SUFFIX,appstoreconnect.apple.com
+HOST-SUFFIX,itunes.apple.com
+HOST-SUFFIX,itunes-apple.com
+HOST-SUFFIX,mzstatic.com
+HOST-SUFFIX,aaplimg.com
+HOST-SUFFIX,cdn-apple.com
+HOST-SUFFIX,testflight.apple.com
+
+
+
+# Apple Books
+HOST,books.itunes.apple.com
+HOST,bookkeeper.itunes.apple.com
+
+# Apple Developer
+HOST-SUFFIX,developer.apple.com
+HOST,adcdownload.apple.com
+HOST,download.developer.apple.com
+HOST,devimages-cdn.apple.com
+HOST,devstreaming-cdn.apple.com
+HOST,docs-assets.developer.apple.com
+
+# Apple 地图
+HOST-SUFFIX,apple-mapkit.com
+HOST-SUFFIX,cdn-apple-mapkit.com
+HOST-SUFFIX,ls.apple.com
+HOST,gs-loc.apple.com
+HOST,gs-loc-cn.apple.com
+HOST,maps.apple.com
+
+# 天气与股票
+HOST,weather-data.apple.com
+HOST,weather-map.apple.com
+HOST,weather-map2.apple.com
+HOST,weatherkit.apple.com
+HOST,stocks-sparkline.apple.com
+
+# Apple 支持与商店
+HOST,store.apple.com
+HOST,support.apple.com
+HOST,supportdownload.apple.com
+HOST,communities.apple.com
+HOST,km.support.apple.com
+
+# 系统软件下载与更新
+HOST,mesu.apple.com
+HOST,oscdn.apple.com
+HOST,swcatalog.apple.com
+HOST,swcdn.apple.com
+HOST,swdist.apple.com
+HOST,swscan.apple.com
+HOST,updates.cdn-apple.com
+
+
+
+
 
 # NAME: iCloud
 
