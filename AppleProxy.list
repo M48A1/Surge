@@ -3,7 +3,8 @@ host-suffix, podcasts.apple.com
 host, bookkeeper.itunes.apple.com
 
 
-
+# Fitness
+HOST,amp-api.fitness.apple.com
 
 # Apple TV+ 主站及视频服务
 
