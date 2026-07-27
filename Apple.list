@@ -14,3 +14,9 @@ HOST,idmsa.apple.com
 
 HOST,apps.apple.com
 HOST,itunes.apple.com
+
+
+# NAME: AppLovin
+
+HOST-SUFFIX,applovin.com,AppLovin
+HOST-SUFFIX,applvn.com,AppLovin
