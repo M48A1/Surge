@@ -16,3 +16,17 @@ HOST,uts-api.itunes.apple.com
 HOST-SUFFIX,tv.apple.com
 USER-AGENT,AppleTV*
 USER-AGENT,com.apple.tv*
+HOST,apps.apple.com
+HOST,books.itunes.apple.com
+HOST,audio-ssl.itunes.apple.com
+HOST,js-cdn.music.apple.com
+HOST,lookup-api.apple.com
+HOST,news-assets.apple.com
+HOST,news-client.apple.com
+HOST,news-edge.apple.com
+HOST,news-events.apple.com
+HOST,testflight.apple.com
+HOST-SUFFIX,apple.news
+HOST-SUFFIX,appsto.re
+USER-AGENT,AppleNews*
+USER-AGENT,com.apple.news*
