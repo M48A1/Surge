@@ -10,3 +10,7 @@ HOST,appleid.cdn-apple.com
 HOST,gsa.apple.com
 HOST,idmsa.apple.com
 
+# NAME: AppStore
+
+HOST,apps.apple.com
+HOST,itunes.apple.com
