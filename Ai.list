@@ -1,101 +1,91 @@
-#ip test
 
-host-suffix, net.coffee, via-interface=%TUN%
+# ip test
 
-#OpenAI / ChatGPT
+host-suffix,net.coffee
 
-host-wildcard, chatgpt-async-webps-prod-.webpubsub.azure.com, via-interface=%TUN%
-host-wildcard, openaicom-api-.azurefd.net, via-interface=%TUN%
-host, chatgpt.livekit.cloud, via-interface=%TUN%
-host, host.livekit.cloud, via-interface=%TUN%
-host-suffix, turn.livekit.cloud, via-interface=%TUN%
-host, openai.com.cdn.cloudflare.net, via-interface=%TUN%
-host, openaiapi-site.azureedge.net, via-interface=%TUN%
-host, openaicomproductionae4b.blob.core.windows.net, via-interface=%TUN%
-host, production-openaicom-storage.azureedge.net, via-interface=%TUN%
-host-suffix, chat.com, via-interface=%TUN%
-host-suffix, chatgpt.com, via-interface=%TUN%
-host-suffix, oaistatic.com, via-interface=%TUN%
-host-suffix, oaiusercontent.com, via-interface=%TUN%
-host-suffix, openai.com, via-interface=%TUN%
-host-suffix, sora.com, via-interface=%TUN%
+# OpenAI / ChatGPT
+host-wildcard, chatgpt-async-webps-prod-*.webpubsub.azure.com
+host-wildcard, openaicom-api-*.azurefd.net
+host, chatgpt.livekit.cloud
+host, host.livekit.cloud
+host-suffix, turn.livekit.cloud
+host, openai.com.cdn.cloudflare.net
+host, openaiapi-site.azureedge.net
+host, openaicomproductionae4b.blob.core.windows.net
+host, production-openaicom-storage.azureedge.net
+host-suffix, chat.com
+host-suffix, chatgpt.com
+host-suffix, oaistatic.com
+host-suffix, oaiusercontent.com
+host-suffix, openai.com
+host-suffix, sora.com
 
-#Apple Intelligence
+# Apple Intelligence
+host-suffix, apple-relay.apple.com
+host-suffix, apple-relay.fastly-edge.com
+host-suffix, apple-relay.cloudflare.com
+host-suffix, apple-relay.akamaized.net
+host-suffix, gateway.icloud.com
+host-suffix, guzzoni.apple.com
+host-suffix, cp4.cloudflare.com
+host-suffix, gspe1-ssl.ls.apple.com
+host-suffix, apps.mzstatic.com
 
-host-suffix, apple-relay.apple.com, via-interface=%TUN%
-host-suffix, apple-relay.fastly-edge.com, via-interface=%TUN%
-host-suffix, apple-relay.cloudflare.com, via-interface=%TUN%
-host-suffix, apple-relay.akamaized.net, via-interface=%TUN%
-host-suffix, gateway.icloud.com, via-interface=%TUN%
-host-suffix, guzzoni.apple.com, via-interface=%TUN%
-host-suffix, cp4.cloudflare.com, via-interface=%TUN%
-host-suffix, gspe1-ssl.ls.apple.com, via-interface=%TUN%
-host-suffix, apps.mzstatic.com, via-interface=%TUN%
+# GitHub Copilot
+host, api.githubcopilot.com
+host, copilot-proxy.githubusercontent.com
+host, copilot.microsoft.com
+host, sydney.bing.com
+host-suffix, githubcopilot.com
 
-#GitHub Copilot
+# Google Gemini
+host, ai.google.dev
+host, aida.googleapis.com
+host, aistudio.google.com
+host, alkalicore-pa.clients6.google.com
+host, alkalimakersuite-pa.clients6.google.com
+host, bard.google.com
+host, deepmind.com
+host, deepmind.google
+host, geller-pa.googleapis.com
+host, gemini.google.com
+host, generativeai.google
+host, generativelanguage.googleapis.com
+host, makersuite.google.com
+host, proactivebackend-pa.googleapis.com
 
-host, api.githubcopilot.com, via-interface=%TUN%
-host, copilot-proxy.githubusercontent.com, via-interface=%TUN%
-host, copilot.microsoft.com, via-interface=%TUN%
-host, sydney.bing.com, via-interface=%TUN%
-host-suffix, githubcopilot.com, via-interface=%TUN%
+# Anthropic Claude
+host-suffix, anthropic.com
+host-suffix, claude.ai
+host-suffix, claude.com
+host-suffix, clau.de
+host-suffix, claudeusercontent.com
+ip-cidr, 160.79.104.0/23
 
-#Google Gemini
+# JetBrains AI
+host-suffix, grazie.ai
+host-suffix, grazie.aws.intellij.net
+host-suffix, jetbrains.ai
 
-host, ai.google.dev, via-interface=%TUN%
-host, aida.googleapis.com, via-interface=%TUN%
-host, aistudio.google.com, via-interface=%TUN%
-host, alkalicore-pa.clients6.google.com, via-interface=%TUN%
-host, alkalimakersuite-pa.clients6.google.com, via-interface=%TUN%
-host, bard.google.com, via-interface=%TUN%
-host, deepmind.com, via-interface=%TUN%
-host, deepmind.google, via-interface=%TUN%
-host, geller-pa.googleapis.com, via-interface=%TUN%
-host, gemini.google.com, via-interface=%TUN%
-host, generativeai.google, via-interface=%TUN%
-host, generativelanguage.googleapis.com, via-interface=%TUN%
-host, makersuite.google.com, via-interface=%TUN%
-host, proactivebackend-pa.googleapis.com, via-interface=%TUN%
+# Meta AI
+host, imagine.meta.com
+host-suffix, meta.ai
 
-#Anthropic Claude
+# Perplexity AI
+host-suffix, pplx.ai
+host-suffix, perplexity.ai
+host-suffix, perplexity.com
 
-host-suffix, anthropic.com, via-interface=%TUN%
-host-suffix, claude.ai, via-interface=%TUN%
-host-suffix, claude.com, via-interface=%TUN%
-host-suffix, clau.de, via-interface=%TUN%
-host-suffix, claudeusercontent.com, via-interface=%TUN%
-ip-cidr, 160.79.104.0/23, via-interface=%TUN%
+# Mistral AI
+host, chat.mistral.ai
+host, console.mistral.ai
+host-suffix, mistral.ai
 
-#JetBrains AI
+# Grok AI
+host, api.x.ai
+host-suffix, x.ai
+host-suffix, grok.com
 
-host-suffix, grazie.ai, via-interface=%TUN%
-host-suffix, grazie.aws.intellij.net, via-interface=%TUN%
-host-suffix, jetbrains.ai, via-interface=%TUN%
-
-#Meta AI
-
-host, imagine.meta.com, via-interface=%TUN%
-host-suffix, meta.ai, via-interface=%TUN%
-
-#Perplexity AI
-
-host-suffix, pplx.ai, via-interface=%TUN%
-host-suffix, perplexity.ai, via-interface=%TUN%
-host-suffix, perplexity.com, via-interface=%TUN%
-
-#Mistral AI
-
-host, chat.mistral.ai, via-interface=%TUN%
-host, console.mistral.ai, via-interface=%TUN%
-host-suffix, mistral.ai, via-interface=%TUN%
-
-#Grok AI
-
-host, api.x.ai, via-interface=%TUN%
-host-suffix, x.ai, via-interface=%TUN%
-host-suffix, grok.com, via-interface=%TUN%
-
-#Trae AI
-
-host, trae-api-sg.mchost.guru, via-interface=%TUN%
-host-suffix, trae.ai, via-interface=%TUN%
+# Trae AI
+host, trae-api-sg.mchost.guru
+host-suffix, trae.ai
