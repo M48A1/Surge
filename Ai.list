@@ -1,7 +1,7 @@
 
 # ip test
 
-host-suffix,ip.net.coffee
+host,ip.net.coffee
 
 # OpenAI
 host-wildcard, chatgpt-async-webps-prod-*.webpubsub.azure.com
