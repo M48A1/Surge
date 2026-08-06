@@ -1,3 +1,8 @@
+# ip test
+
+host-suffix,net.coffee
+
+
 # OpenAI / ChatGPT
 host-wildcard, chatgpt-async-webps-prod-*.webpubsub.azure.com
 host-wildcard, openaicom-api-*.azurefd.net
