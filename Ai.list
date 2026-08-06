@@ -1,8 +1,8 @@
-ip test
+#ip test
 
 host-suffix, net.coffee, via-interface=%TUN%
 
-OpenAI / ChatGPT
+#OpenAI / ChatGPT
 
 host-wildcard, chatgpt-async-webps-prod-.webpubsub.azure.com, via-interface=%TUN%
 host-wildcard, openaicom-api-.azurefd.net, via-interface=%TUN%
@@ -20,7 +20,7 @@ host-suffix, oaiusercontent.com, via-interface=%TUN%
 host-suffix, openai.com, via-interface=%TUN%
 host-suffix, sora.com, via-interface=%TUN%
 
-Apple Intelligence
+#Apple Intelligence
 
 host-suffix, apple-relay.apple.com, via-interface=%TUN%
 host-suffix, apple-relay.fastly-edge.com, via-interface=%TUN%
@@ -32,7 +32,7 @@ host-suffix, cp4.cloudflare.com, via-interface=%TUN%
 host-suffix, gspe1-ssl.ls.apple.com, via-interface=%TUN%
 host-suffix, apps.mzstatic.com, via-interface=%TUN%
 
-GitHub Copilot
+#GitHub Copilot
 
 host, api.githubcopilot.com, via-interface=%TUN%
 host, copilot-proxy.githubusercontent.com, via-interface=%TUN%
@@ -40,7 +40,7 @@ host, copilot.microsoft.com, via-interface=%TUN%
 host, sydney.bing.com, via-interface=%TUN%
 host-suffix, githubcopilot.com, via-interface=%TUN%
 
-Google Gemini
+#Google Gemini
 
 host, ai.google.dev, via-interface=%TUN%
 host, aida.googleapis.com, via-interface=%TUN%
@@ -57,7 +57,7 @@ host, generativelanguage.googleapis.com, via-interface=%TUN%
 host, makersuite.google.com, via-interface=%TUN%
 host, proactivebackend-pa.googleapis.com, via-interface=%TUN%
 
-Anthropic Claude
+#Anthropic Claude
 
 host-suffix, anthropic.com, via-interface=%TUN%
 host-suffix, claude.ai, via-interface=%TUN%
@@ -66,36 +66,36 @@ host-suffix, clau.de, via-interface=%TUN%
 host-suffix, claudeusercontent.com, via-interface=%TUN%
 ip-cidr, 160.79.104.0/23, via-interface=%TUN%
 
-JetBrains AI
+#JetBrains AI
 
 host-suffix, grazie.ai, via-interface=%TUN%
 host-suffix, grazie.aws.intellij.net, via-interface=%TUN%
 host-suffix, jetbrains.ai, via-interface=%TUN%
 
-Meta AI
+#Meta AI
 
 host, imagine.meta.com, via-interface=%TUN%
 host-suffix, meta.ai, via-interface=%TUN%
 
-Perplexity AI
+#Perplexity AI
 
 host-suffix, pplx.ai, via-interface=%TUN%
 host-suffix, perplexity.ai, via-interface=%TUN%
 host-suffix, perplexity.com, via-interface=%TUN%
 
-Mistral AI
+#Mistral AI
 
 host, chat.mistral.ai, via-interface=%TUN%
 host, console.mistral.ai, via-interface=%TUN%
 host-suffix, mistral.ai, via-interface=%TUN%
 
-Grok AI
+#Grok AI
 
 host, api.x.ai, via-interface=%TUN%
 host-suffix, x.ai, via-interface=%TUN%
 host-suffix, grok.com, via-interface=%TUN%
 
-Trae AI
+#Trae AI
 
 host, trae-api-sg.mchost.guru, via-interface=%TUN%
 host-suffix, trae.ai, via-interface=%TUN%
