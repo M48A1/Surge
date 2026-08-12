@@ -131,6 +131,7 @@ HOST-SUFFIX,iwork.apple.com
 HOST-SUFFIX,me.com
 HOST-SUFFIX,myicloud.net
 HOST-SUFFIX,mylcloud.net
-HOST-SUFFIX,www-cdn.icloud.com.akadns.net
+HOST-SUFFIX,www-cdn.icloud.com
 HOST-SUFFIX,wwwicloud.com
-HOST-KEYWORD,icloud.com.akadns.net
+HOST-SUFFIX,akadns.net
+HOST-KEYWORD,icloud.com
