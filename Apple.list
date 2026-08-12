@@ -1,6 +1,6 @@
 # NAME: AppleMail
 
-HOST,icloud.com.cn
+HOST,mail.icloud.com.cn
 HOST,mail.me.com
 
 # NAME: AppleID
@@ -12,16 +12,16 @@ HOST,idmsa.apple.com
 
 # NAME: AppleMusic
 
-HOST,aod-ssl.itunes.apple.com,AppleMusic
-HOST,aod.itunes.apple.com,AppleMusic
-HOST,audio-ssl.itunes.apple.com,AppleMusic
-HOST,audio.itunes.apple.com,AppleMusic
-HOST,mvod.itunes.apple.com,AppleMusic
-HOST,streamingaudio.itunes.apple.com,AppleMusic
-HOST-SUFFIX,applemusic.com,AppleMusic
-HOST-SUFFIX,blobstore.apple.com,AppleMusic
-HOST-SUFFIX,music.apple.com,AppleMusic
-USER-AGENT,Music*,AppleMusic
+HOST,aod-ssl.itunes.apple.com
+HOST,aod.itunes.apple.com
+HOST,audio-ssl.itunes.apple.com
+HOST,audio.itunes.apple.com
+HOST,mvod.itunes.apple.com
+HOST,streamingaudio.itunes.apple.com
+HOST-SUFFIX,applemusic.com
+HOST-SUFFIX,blobstore.apple.com
+HOST-SUFFIX,music.apple.com
+USER-AGENT,Music*
 
 
 # Apple 官网及基础服务
@@ -99,7 +99,6 @@ HOST-SUFFIX,apple-livephotoskit.com
 HOST-SUFFIX,appleicloud.cn
 HOST-SUFFIX,applemx-icloud.com
 HOST-SUFFIX,apzones.com
-HOST-SUFFIX,cdn-apple.com
 HOST-SUFFIX,gc.apple.com
 HOST-SUFFIX,icloud-apple.cn
 HOST-SUFFIX,icloud-content.com
@@ -133,5 +132,4 @@ HOST-SUFFIX,myicloud.net
 HOST-SUFFIX,mylcloud.net
 HOST-SUFFIX,www-cdn.icloud.com
 HOST-SUFFIX,wwwicloud.com
-HOST-SUFFIX,akadns.net
-HOST-KEYWORD,icloud.com
+HOST-SUFFIX,icloud.com.akadns.net
