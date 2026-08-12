@@ -25,3 +25,6 @@ host-suffix, zhibo8.cc
 # jd
 host-suffix, 360buyimg.com
 host-suffix, jd.com
+
+# right
+host-suffix,right.com.cn
