@@ -8,6 +8,7 @@ HOST,amp-api.fitness.apple.com
 
 # Apple TV+ 主站及视频服务
 
+HOST,apple-tv-plus-press.apple.com
 HOST,hls-amt.itunes.apple.com
 HOST,hls.itunes.apple.com
 HOST,np-edge.itunes.apple.com
@@ -15,27 +16,4 @@ HOST,play-edge.itunes.apple.com
 HOST,tv.applemusic.com
 HOST,uts-api.itunes.apple.com
 HOST-SUFFIX,tv.apple.com
-USER-AGENT,AppleTV*
-USER-AGENT,com.apple.tv*
-HOST,books.itunes.apple.com
-HOST,audio-ssl.itunes.apple.com
-HOST,js-cdn.music.apple.com
-HOST,lookup-api.apple.com
-HOST,news-assets.apple.com
-HOST,news-client.apple.com
-HOST,news-edge.apple.com
-HOST,news-events.apple.com
-HOST,testflight.apple.com
-HOST-SUFFIX,apple.news
-USER-AGENT,AppleNews*
-USER-AGENT,com.apple.news*
 
-
-# NAME: iCloudPrivateRelay
-
-HOST,mask-api.fe.apple-dns.net
-HOST,mask-api.icloud.com
-HOST,mask-t.apple-dns.net
-HOST,mask.apple-dns.net
-HOST-SUFFIX,mask-h2.icloud.com
-HOST-SUFFIX,mask.icloud.com
