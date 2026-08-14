@@ -25,7 +25,6 @@ host-suffix, apple-relay.apple.com
 host-suffix, apple-relay.fastly-edge.com
 host-suffix, apple-relay.cloudflare.com
 host-suffix, apple-relay.akamaized.net
-host-suffix, gateway.icloud.com
 host-suffix, guzzoni.apple.com
 host-suffix, cp4.cloudflare.com
 host-suffix, gspe1-ssl.ls.apple.com
