@@ -37,21 +37,6 @@ host, copilot.microsoft.com
 host, sydney.bing.com
 host-suffix, githubcopilot.com
 
-# Google Gemini
-host, ai.google.dev
-host, aida.googleapis.com
-host, aistudio.google.com
-host, alkalicore-pa.clients6.google.com
-host, alkalimakersuite-pa.clients6.google.com
-host, bard.google.com
-host, deepmind.com
-host, deepmind.google
-host, geller-pa.googleapis.com
-host, gemini.google.com
-host, generativeai.google
-host, generativelanguage.googleapis.com
-host, makersuite.google.com
-host, proactivebackend-pa.googleapis.com
 
 # Anthropic Claude
 host-suffix, anthropic.com
