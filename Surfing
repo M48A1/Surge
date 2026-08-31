@@ -2,6 +2,9 @@
 # blog
 host, blog.sinohyper.com
 
+# monitor
+host, monitor.sinohyper.com
+
 # sb.sb
 host-suffix, sb.sb
 
