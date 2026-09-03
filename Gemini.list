@@ -1,1 +1,6 @@
 
+# Gemini
+HOST-SUFFIX,gemini.google.com
+HOST-SUFFIX,aistudio.google.com
+HOST-SUFFIX,generativelanguage.googleapis.com
+HOST-SUFFIX,ai.google.dev
