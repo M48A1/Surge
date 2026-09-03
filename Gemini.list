@@ -1,6 +1,16 @@
 
 # Gemini
+
+HOST-SUFFIX,ai.google
+HOST,ai.google.dev
+HOST,makersuite.google.com
+HOST,aistudio.google.com
 HOST-SUFFIX,gemini.google.com
-HOST-SUFFIX,aistudio.google.com
+HOST-SUFFIX,notebooklm.google.com
+HOST-SUFFIX,notebooklm.google
 HOST-SUFFIX,generativelanguage.googleapis.com
-HOST-SUFFIX,ai.google.dev
+HOST-SUFFIX,alkalimakersuite-pa.googleapis.com
+HOST-SUFFIX,deepmind.com
+HOST-SUFFIX,deepmind.google
+HOST-SUFFIX,generativeai.google
+HOST-SUFFIX,colab.google.com
