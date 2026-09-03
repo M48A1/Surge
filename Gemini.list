@@ -14,4 +14,4 @@ HOST-SUFFIX,deepmind.com
 HOST-SUFFIX,deepmind.google
 HOST-SUFFIX,generativeai.google
 HOST-SUFFIX,colab.google.com
-HOST,gemini,gstatic.com
+HOST-SUFFIX,gemini,gstatic.com
