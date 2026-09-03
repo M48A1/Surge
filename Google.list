@@ -25,5 +25,5 @@ HOST,myaccount.google.com
 HOST-SUFFIX,gmail.com
 HOST,inbox.google.com
 
-
-
+# translate
+HOST,translate.google.com
