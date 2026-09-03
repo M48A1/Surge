@@ -1,6 +1,6 @@
 HOST,google.com
 HOST,account.google.com
-HOST.googleapis.com
+HOST,googleapis.com
 HOST-SUFFIX,googleapis.com
 HOST-SUFFIX,gstatic.com
 HOST-SUFFIX,googleusercontent.com  
