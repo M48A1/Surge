@@ -17,6 +17,11 @@ host-suffix, yandex.com
 host-suffix, wikipedia.org
 host-suffix, wikimedia.org
 
+# nodeseek
+HOST-DUFFIX,nodeseek.org
+host-suffix, nodeseek.com
+host-suffix, nodeimage.com
+
 #Surfing
 host-suffix, 2libra.com
 host-suffix, vercel.app
@@ -24,8 +29,7 @@ host-suffix, vercel.com
 host-suffix, nssurge.com
 host-suffix, v2ex.com
 host-keyword, v2ex
-host-suffix, nodeseek.com
-host-suffix, nodeimage.com
+
 host-suffix, greasyfork.org
 host-keyword, greasyfork
 host-suffix, mozilla.org
