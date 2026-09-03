@@ -4,3 +4,4 @@ HOST.googleapis.com
 HOST-SUFFIX,googleapis.com
 HOST-SUFFIX,gstatic.com
 HOST-SUFFIX,googleusercontent.com  
+HOST,userlocations.googleapis.com
