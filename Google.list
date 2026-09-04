@@ -23,6 +23,7 @@ HOST,myaccount.google.com
 # gmail
 HOST-SUFFIX,gmail.com
 HOST,inbox.google.com
+HOST,mail.google.com
 
 # translate
 HOST,translate.google.com
