@@ -18,7 +18,7 @@ host-suffix, wikipedia.org
 host-suffix, wikimedia.org
 
 # nodeseek
-HOST-DUFFIX,nodeseek.org
+HOST-SUFFIX,nodeseek.org
 host-suffix, nodeseek.com
 host-suffix, nodeimage.com
 
