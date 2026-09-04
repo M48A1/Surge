@@ -1,4 +1,4 @@
-HOST,google.com
+HOST-SUFFIX,google.com
 HOST,www.google.com
 HOST-SUFFIX,googleapis.com
 HOST-SUFFIX,gstatic.com
