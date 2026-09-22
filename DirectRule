@@ -2,6 +2,9 @@
 # netcup
 host-suffix, netcup.com
 
+# abc
+host,mobilepaas.abchina.com.cn
+
 
 # dnschecker.org
 host-suffix, dnschecker.org
