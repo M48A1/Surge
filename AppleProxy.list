@@ -1,3 +1,15 @@
+
+
+# Apple Intelligence
+host-suffix, apple-relay.apple.com
+host-suffix, apple-relay.fastly-edge.com
+host-suffix, apple-relay.cloudflare.com
+host-suffix, apple-relay.akamaized.net
+host-suffix, guzzoni.apple.com
+host-suffix, cp4.cloudflare.com
+host-suffix, gspe1-ssl.ls.apple.com
+host-suffix, apps.mzstatic.com
+
 # Podcast：使用外区账号或国外节目加载异常时保留
 host-suffix, podcasts.apple.com
 host, bookkeeper.itunes.apple.com
