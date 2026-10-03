@@ -28,6 +28,7 @@ host-suffix, vercel.app
 host-suffix, vercel.com
 host-suffix, nssurge.com
 host-suffix, v2ex.com
+host-suffix, v2core.com
 host-keyword, v2ex
 
 host-suffix, greasyfork.org
