@@ -1,3 +1,5 @@
+# Google Drive domains are in video.list.
+# Load video.list before this rule set to override the shared Google suffix rules.
 HOST-SUFFIX,google.com
 HOST,www.google.com
 HOST-SUFFIX,googleapis.com
