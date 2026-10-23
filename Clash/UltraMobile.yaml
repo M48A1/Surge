@@ -1,0 +1,6 @@
+# Converted from UltraMobile.list; source commit a30794de502b85abde980f2f388f80aae2b66365
+# Mihomo / Clash Meta; behavior: classical; format: yaml
+payload:
+  - "DOMAIN-SUFFIX,ultramobile.com"
+  - "DOMAIN-SUFFIX,ultra.me"
+

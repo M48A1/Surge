@@ -1,0 +1,16 @@
+# Converted from video.list; source commit a30794de502b85abde980f2f388f80aae2b66365
+# Mihomo / Clash Meta; behavior: classical; format: yaml
+payload:
+  - "DOMAIN-SUFFIX,959722.xyz"
+
+# Google Drive - load this rule set before Google.list
+  - "DOMAIN-SUFFIX,googledrive.com"
+  - "DOMAIN-SUFFIX,drive.google.com"
+  - "DOMAIN,drive.usercontent.google.com"
+  - "DOMAIN,drive-data-export.usercontent.google.com"
+  - "DOMAIN,drive-data-export-eu.usercontent.google.com"
+  - "DOMAIN-SUFFIX,drive.googleusercontent.com"
+  - "DOMAIN,drive.googleapis.com"
+  - "DOMAIN,driveactivity.googleapis.com"
+  - "DOMAIN,drivelabels.googleapis.com"
+

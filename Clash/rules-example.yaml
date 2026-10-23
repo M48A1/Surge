@@ -1,0 +1,103 @@
+# 配置片段：合并到现有配置，不能作为完整节点订阅导入。
+# 将下面策略名称替换为你已有的节点或策略组名称；源仓库没有提供策略绑定。
+# 示例仅默认 DirectRule/Apple 直连、RejectRule 拒绝，其他分类使用同名策略组。
+# 将这些 rules 放在现有宽泛规则和 MATCH 之前，保留现有最终兜底规则。
+rule-providers:
+  RejectRule:
+    type: http
+    behavior: classical
+    format: yaml
+    url: https://raw.githubusercontent.com/M48A1/Surge/main/Clash/RejectRule.yaml
+    path: ./rules/M48A1/RejectRule.yaml
+    interval: 86400
+  DirectRule:
+    type: http
+    behavior: classical
+    format: yaml
+    url: https://raw.githubusercontent.com/M48A1/Surge/main/Clash/DirectRule.yaml
+    path: ./rules/M48A1/DirectRule.yaml
+    interval: 86400
+  Ai:
+    type: http
+    behavior: classical
+    format: yaml
+    url: https://raw.githubusercontent.com/M48A1/Surge/main/Clash/Ai.yaml
+    path: ./rules/M48A1/Ai.yaml
+    interval: 86400
+  AppleProxy:
+    type: http
+    behavior: classical
+    format: yaml
+    url: https://raw.githubusercontent.com/M48A1/Surge/main/Clash/AppleProxy.yaml
+    path: ./rules/M48A1/AppleProxy.yaml
+    interval: 86400
+  USHome:
+    type: http
+    behavior: classical
+    format: yaml
+    url: https://raw.githubusercontent.com/M48A1/Surge/main/Clash/USHome.yaml
+    path: ./rules/M48A1/USHome.yaml
+    interval: 86400
+  UltraMobile:
+    type: http
+    behavior: classical
+    format: yaml
+    url: https://raw.githubusercontent.com/M48A1/Surge/main/Clash/UltraMobile.yaml
+    path: ./rules/M48A1/UltraMobile.yaml
+    interval: 86400
+  YouTube:
+    type: http
+    behavior: classical
+    format: yaml
+    url: https://raw.githubusercontent.com/M48A1/Surge/main/Clash/YouTube.yaml
+    path: ./rules/M48A1/YouTube.yaml
+    interval: 86400
+  video:
+    type: http
+    behavior: classical
+    format: yaml
+    url: https://raw.githubusercontent.com/M48A1/Surge/main/Clash/video.yaml
+    path: ./rules/M48A1/video.yaml
+    interval: 86400
+  Meta:
+    type: http
+    behavior: classical
+    format: yaml
+    url: https://raw.githubusercontent.com/M48A1/Surge/main/Clash/Meta.yaml
+    path: ./rules/M48A1/Meta.yaml
+    interval: 86400
+  Google:
+    type: http
+    behavior: classical
+    format: yaml
+    url: https://raw.githubusercontent.com/M48A1/Surge/main/Clash/Google.yaml
+    path: ./rules/M48A1/Google.yaml
+    interval: 86400
+  Apple:
+    type: http
+    behavior: classical
+    format: yaml
+    url: https://raw.githubusercontent.com/M48A1/Surge/main/Clash/Apple.yaml
+    path: ./rules/M48A1/Apple.yaml
+    interval: 86400
+  Surfing:
+    type: http
+    behavior: classical
+    format: yaml
+    url: https://raw.githubusercontent.com/M48A1/Surge/main/Clash/Surfing.yaml
+    path: ./rules/M48A1/Surfing.yaml
+    interval: 86400
+
+rules:
+  - RULE-SET,RejectRule,REJECT
+  - RULE-SET,DirectRule,DIRECT
+  - RULE-SET,Ai,Ai
+  - RULE-SET,AppleProxy,AppleProxy
+  - RULE-SET,USHome,USHome
+  - RULE-SET,UltraMobile,UltraMobile
+  - RULE-SET,YouTube,YouTube
+  - RULE-SET,video,video
+  - RULE-SET,Meta,Meta
+  - RULE-SET,Google,Google
+  - RULE-SET,Apple,DIRECT
+  - RULE-SET,Surfing,Surfing

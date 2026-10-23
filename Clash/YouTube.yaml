@@ -1,0 +1,12 @@
+# Converted from YouTube.list; source commit a30794de502b85abde980f2f388f80aae2b66365
+# Mihomo / Clash Meta; behavior: classical; format: yaml
+payload:
+# YouTube
+  - "DOMAIN-SUFFIX,youtube.com"
+  - "DOMAIN-SUFFIX,youtu.be"
+  - "DOMAIN-SUFFIX,ytimg.com"
+  - "DOMAIN-SUFFIX,googlevideo.com"
+  - "DOMAIN,youtubei.googleapis.com"
+  - "DOMAIN-SUFFIX,gvt1.com"
+  - "DOMAIN-SUFFIX,gvt2.com"
+
