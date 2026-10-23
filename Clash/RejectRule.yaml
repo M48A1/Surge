@@ -1,7 +1,0 @@
-# Converted from RejectRule.list; source commit a30794de502b85abde980f2f388f80aae2b66365
-# Mihomo / Clash Meta; behavior: classical; format: yaml
-payload:
-
-# 跳过农行app检测
-  - "DOMAIN,msmp.abchina.com.cn"
-
